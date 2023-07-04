@@ -6,7 +6,7 @@ header_image: "images/cover-image.svg"
 header_use_video: false
 #
 # Optional header logo. CSS: `#blog-logo`, with max-height defined, optimize to prevent scaling
-header_logo: "images/handcuffs-solid.svg"
+#header_logo: "images/handcuffs-solid.svg"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "Who's Making News"
