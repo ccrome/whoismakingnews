@@ -1,0 +1,70 @@
+{{ $summarize := or (.Get "summary") "true" }}
+{{ $chart_type := or (.Get "chart_type") "bar" }}
+<div>
+  <canvas id='{{ .Get "id"}}' width='{{ .Get "width" }}' height='{{ .Get "height" }}'></canvas>
+  <script>
+    $(function() {
+      const chart_type = '{{ $chart_type }}';
+      if (chart_type !== 'bar' && chart_type !== 'pie') {
+        throw new Error(`Invalid chart type: ${chart_type}`);
+      }
+      let show_legend = false;
+      if (chart_type === 'pie') {
+        show_legend = true;
+      }
+
+      crime_db.then((args) => {
+        let df = args.df;
+        let id = '{{ .Get "id" }}';
+        let ctx = document.getElementById(id).getContext('2d');
+          let summarize = /^true$/i.test('{{ $summarize }}');
+          let summary = summarize_data(df, summarize);
+          let total_cases = summary.values.reduce((ps, a) => ps + a, 0);
+      tooltip: {
+        callbacks: {
+          label: (context) => {
+            const dataIndex = context.dataIndex;
+            const datasetIndex = context.datasetIndex;
+            const value = summary.values[dataIndex];
+            return `Value for bar ${datasetIndex}: ${value}`;
+          }
+        }
+      }
+
+        let chart = new Chart(ctx, {
+          type: '{{ $chart_type }}',
+          data: {
+            labels: summary.labels,
+            datasets: [{
+              label: 'Total Crimes',
+              data: summary.values,
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              tooltip: {
+                callbacks: {
+                  label: (context) => {
+                    const dataIndex = context.dataIndex;
+                    const datasetIndex = context.datasetIndex;
+                    const value = summary.values[dataIndex];
+                    const pct = (value / total_cases * 100).toFixed(2);
+                    return `${pct}%`;
+                  }
+                }
+              },
+              autocolors: {
+                mode: 'data',
+              },
+              legend: {
+                display: show_legend,
+              },
+            },
+          },
+        });
+      });
+    });
+  </script>
+</div>

@@ -1,0 +1,9 @@
+<span id="{{ .Get "id" }}"></span>
+<script>
+  crime_db.then((args) => {
+      df = args.df;
+      var dateFormatter = d3.timeFormat("%b %e, %Y");
+      document.getElementById('{{ .Get "id" }}').innerHTML = dateFormatter(df[0].Date);
+  });
+</script>
+

@@ -1,0 +1,61 @@
+// CSS variables
+@import "./variables.scss";
+
+// Theme layout and skelet styling
+@import "./theme.scss";
+
+// Content-related styles
+@import "./content.scss";
+
+// Media queries for responsiveness (optimizations for various screen sizes)
+@import "./responsiveness.scss"
+
+a.db_button {
+  text-decoration: none;
+  background-color: var(--highlight);
+  color: var(--highlight-contrast);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 0;
+  overflow: visible;
+  padding: 10px 20px 10px 20px;
+  position: relative;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+
+  &:hover {
+    color: var(--highlight-inverse-contrast);
+    background-color: var(--highlight-inverse);
+  }
+}
+
+span.db_button {
+  text-decoration: none;
+  background-color: var(--highlight);
+  color: var(--highlight-contrast);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 0;
+  overflow: visible;
+  padding: 10px 20px 10px 20px;
+  position: relative;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+
+  &:hover {
+    color: var(--highlight-inverse-contrast);
+    background-color: var(--highlight-inverse);
+  }
+}

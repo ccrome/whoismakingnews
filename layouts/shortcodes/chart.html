@@ -1,0 +1,6 @@
+<div>
+  <canvas id="{{ .Get "id"}}" width="{{ .Get "width" }}" height="{{ .Get "height" }}"></canvas>
+  {{ if .Get "js" }}
+  <script src="js/{{ .Get "js"}}.js"></script>
+  {{ end }}
+</div>

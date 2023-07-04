@@ -1,0 +1,13 @@
+<span href="" class="db_button" disabled>{{.Get "category"}}=<span id="{{ .Get "id" }}"></span></span>
+{{ $category := or (.Get "category") "Trans" }}
+<script>
+  crime_db.then((args) => {
+      let df = args.df;
+      let summary = summarize_data(df, true);
+      let count = 0;
+      const category = {{ $category }};
+      count = summary.values[summary.labels.indexOf(category)];
+      document.getElementById('{{ .Get "id" }}').innerHTML = count;
+  });
+</script>
+

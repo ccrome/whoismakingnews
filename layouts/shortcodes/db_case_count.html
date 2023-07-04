@@ -1,0 +1,8 @@
+<span id="{{ .Get "id" }}"></span>
+<script>
+  crime_db.then((args) => {
+      df = args.df;
+      document.getElementById('{{ .Get "id" }}').innerHTML = df.length;
+  });
+</script>
+
