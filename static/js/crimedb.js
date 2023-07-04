@@ -43,7 +43,9 @@ function group_cats(d) {
 // Return a promise for all rows of the data
 // this will always be sorted most recent first.
 async function fetch_data(url="data.csv") {
-    url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1732993794&single=true&output=csv';
+    url               = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1732993794&single=true&output=csv';
+    organizations_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1777626061&single=true&output=csv';
+
     let df = await d3.csv(url);
     const parseDate = d3.timeParse("%m/%d/%Y");
     df.forEach(function(d) {
@@ -57,7 +59,12 @@ async function fetch_data(url="data.csv") {
     df.sort(function(a, b) {
         return b.Date - a.Date;
     });
-    return {df: df};
+
+    let org_df = await d3.csv(organizations_url);
+    return {
+        df: df,
+        org: org_df,
+    };
 }
 
 function summarize_data(df, group_categories=true) {
@@ -77,32 +84,3 @@ function summarize_data(df, group_categories=true) {
 }
 
 crime_db = fetch_data();
-
-//            id = document.getElementById('mychart');
-//            data = {
-//	        labels: [...ru.keys()],
-//	            datasets: [{
-//	                label: '# of cases',
-//	                data: [...ru.values()],
-//	                borderWidth: 1,
-//                    }]
-//    };
-//    options = {
-//        legend: {
-//            display: false
-//        },
-//        tooltips: {
-//            enabled: false
-//        }
-//    };
-//    new Chart(id,
-//              {
-//                  type: 'bar',
-//	          data: data,
-//                  options: options,
-//              }
-//             )
-//}).catch((message) => {
-//    window.alert("Data failed to load" + message);
-//    console.log("data load failed" + message);
-//});
