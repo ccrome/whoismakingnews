@@ -18,17 +18,22 @@ data, including the central pie chart.
 <span id="organizations-id"></span>
 <script>
     crime_db.then((data) => {
-      df = data.org;
+      let df = data.org;
       // group the df by Organization
       var orgs = d3.group(df, d => d.Organization);
       // loop over each Organization, and each of its rows
-      html = "";
+      let html = "";
       orgs.forEach((org, org_name) => {
         html += "<h6>" + org_name.toUpperCase() + "</h6>";
         // loop through each org's rows and print out the date
         html += "<ul>";
         org.forEach((row) => {
-          html += `<li> ${row.Date} <a href="${row.URL}" target="_blank" >${row.Summary}</a></li>`;
+          // get the number of predators, converting from string to integer.  blank is 0
+          let predators = parseInt(row.Predators);
+          let victims = parseInt(row.Victims);
+          predators = predators ? `${predators} predators` : "";
+          victims = victims ? `${victims} victims` : "";          
+          html += `<li> ${row.Date} <a href="${row.URL}" target="_blank" >${row.Summary}. ${predators} ${victims}</a></li>`;
         });
         html += "</ul>";
       });
