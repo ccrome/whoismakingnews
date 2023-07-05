@@ -4,7 +4,7 @@ weight: 10
 ---
 Hi, I'm Kristen Browde, and this is a site that was set up because
 people wanted to see the data that goes into my TikTok series,
-{{<extlink text="Who's Making News for Sex Crimes involving Children." href="https://www.tiktok.com/@newgirlny_fl/video/7243444125142404394?lang=en">}} 
+[Who's Making News for Sex Crimes involving Children.](#tiktok)
 
 #### Who is really committing crimes against children?
 

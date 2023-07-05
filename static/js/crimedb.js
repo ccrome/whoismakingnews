@@ -44,8 +44,8 @@ function group_cats(d) {
 // this will always be sorted most recent first.
 async function fetch_data(url="data.csv") {
     url               = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1732993794&single=true&output=csv';
-    organizations_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1777626061&single=true&output=csv';
-
+    let organizations_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1777626061&single=true&output=csv';
+    let playlist_url      = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1711518987&single=true&output=csv';
     let df = await d3.csv(url);
     const parseDate = d3.timeParse("%m/%d/%Y");
     df.forEach(function(d) {
@@ -59,12 +59,14 @@ async function fetch_data(url="data.csv") {
     df.sort(function(a, b) {
         return b.Date - a.Date;
     });
-
     let org_df = await d3.csv(organizations_url);
-    return {
+    let tiktok_df = await d3.csv(playlist_url);
+    let result = {
         df: df,
         org: org_df,
+        tiktok: tiktok_df,
     };
+    return result;
 }
 
 function summarize_data(df, group_categories=true) {
