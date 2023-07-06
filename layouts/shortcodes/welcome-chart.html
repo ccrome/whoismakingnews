@@ -29,16 +29,6 @@
         let summarize = /^true$/i.test('{{ $summarize }}');
         let summary = summarize_data(df, summarize);
         let total_cases = summary.values.reduce((ps, a) => ps + a, 0);
-      tooltip: {
-        callbacks: {
-          label: (context) => {
-            const dataIndex = context.dataIndex;
-            const datasetIndex = context.datasetIndex;
-            const value = summary.values[dataIndex];
-            return `Value for bar ${datasetIndex}: ${value}`;
-          }
-        }
-      }
 
         let chart = new Chart(ctx, {
           type: '{{ $chart_type }}',
