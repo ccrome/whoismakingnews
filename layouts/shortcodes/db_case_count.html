@@ -1,8 +1,23 @@
-<span id="{{ .Get "id" }}"></span>
+{{ $category := .Get "category" | default "" }}
+<span id="{{ .Get "id" }}">...</span>
 <script>
   crime_db.then((args) => {
-      df = args.df;
-      document.getElementById('{{ .Get "id" }}').innerHTML = df.length;
+      // data is a d3 table
+      let data = args.df;
+      let category = {{ $category }};
+      if (category.length !== 0) {
+        // get unique categories from d3 table 'data'
+        let unique_categories = d3.map(data, 
+          function(d){return(d.Category);});
+        unique_categories = [...new Set(unique_categories)];
+        // if category is in unique_categories, filter data
+        if (unique_categories.includes(category)) {
+          data = data.filter(function(d) {
+            return d.Category === category;
+          });
+        }
+      }
+      document.getElementById('{{ .Get "id" }}').innerHTML = data.length;
   });
 </script>
 

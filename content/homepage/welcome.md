@@ -17,10 +17,18 @@ Here is the latest data from {{< db_case_count id="case-count" >}} cases, as of 
 </div>
 
 **Summarized data**
-{{< welcome-chart id="welcome-chart" summary="true" height=300 >}}
+
+**Note:** This data excludes
+{{< db_case_count id="not-included" category="Not Listed" >}} cases
+that do not have any employment or relationship included.  You can
+help make the data more complete by looking in our
+[Data Section](#data) and submit any changes.
+
+
+{{< welcome-chart id="welcome-chart" summary="true" height=300 exclude="Not Listed" >}}
 
 **Broken out by Employment**
-{{< welcome-chart id="welcome-chart2" summary="false" chart_type=bar height=300 >}}
+{{< welcome-chart id="welcome-chart2" summary="false" exclude="Not Listed" height=300 >}}
 
 **Per-Capita Crime Heatmap**
 

@@ -1,10 +1,12 @@
 {{ $summarize := or (.Get "summary") "true" }}
 {{ $chart_type := or (.Get "chart_type") "bar" }}
+{{ $exclude := or (.Get "exclude") "" }}
 <div>
   <canvas id='{{ .Get "id"}}' width='{{ .Get "width" }}' height='{{ .Get "height" }}'></canvas>
   <script>
     $(function() {
-      const chart_type = '{{ $chart_type }}';
+      
+        const chart_type = '{{ $chart_type }}';
       if (chart_type !== 'bar' && chart_type !== 'pie') {
         throw new Error(`Invalid chart type: ${chart_type}`);
       }
@@ -15,11 +17,18 @@
 
       crime_db.then((args) => {
         let df = args.df;
+        let exclude = '{{ $exclude }}';
+        if (exclude.length !== 0) {
+          let exclude_list = exclude.split(',');
+          df = df.filter(function(d) {
+            return !exclude_list.includes(d.Category);
+          });
+        }
         let id = '{{ .Get "id" }}';
         let ctx = document.getElementById(id).getContext('2d');
-          let summarize = /^true$/i.test('{{ $summarize }}');
-          let summary = summarize_data(df, summarize);
-          let total_cases = summary.values.reduce((ps, a) => ps + a, 0);
+        let summarize = /^true$/i.test('{{ $summarize }}');
+        let summary = summarize_data(df, summarize);
+        let total_cases = summary.values.reduce((ps, a) => ps + a, 0);
       tooltip: {
         callbacks: {
           label: (context) => {
@@ -54,7 +63,7 @@
                     const datasetIndex = context.datasetIndex;
                     const value = summary.values[dataIndex];
                     const pct = (value / total_cases * 100).toFixed(2);
-                    return `${pct}%`;
+                    return `${value} cases: ${pct}%`;
                   }
                 }
               },
