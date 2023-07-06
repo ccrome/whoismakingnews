@@ -13,6 +13,50 @@ very low populations may have an abnormally high or low crime rate due to
 sampling errors.
 
 <canvas id="heatmap-id"></canvas>
+<style>
+.licenses-info-popup {
+  background: #fff;
+	box-shadow: 0px 0px 2px #bbb;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 6px;
+	font-family: arial;
+	font-size: 14px;
+}
+.state-info {
+	border-bottom: 1px solid rgb(223, 223, 223.6);
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	&__value {
+		font-weight: bold;
+	}
+}
+.licenses-info {
+	display: flex;
+	&__label {
+		padding-left: 8px;
+		position: relative;
+		&::before {
+			left: 0;
+			background: orange;
+			content: "";
+			display: block;
+			height: 16px;
+			position: absolute;
+			width: 3px;
+		}
+	}
+
+	&__count-info {
+		flex-grow: 1;
+		text-align: right;
+	}
+	&__count {
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+}
+</style>
 <script>
   async function get_state_data() {
     return crime_db.then((data) => {
@@ -21,10 +65,66 @@ sampling errors.
         // use d3 to group by State
         let df_grouped = d3.group(df, d => d.State);
         // convert the grouped rows to a map of row counts
-        df_grouped = new Map(Array.from(df_grouped, ([key, value]) => [key, value.length / total]));
+        df_grouped = new Map(Array.from(df_grouped, ([key, value]) => [key, value.length]));
         return df_grouped;
     });
   }
+const getOrCreateTooltip = (chart) => {
+  let tooltipEl = chart.canvas.parentNode.querySelector("div");
+  if (!tooltipEl) {
+    tooltipEl = document.createElement("div");
+    tooltipEl.classList.add("licenses-info-popup");
+    tooltipEl.style.opacity = 1;
+    tooltipEl.style.pointerEvents = "none";
+    tooltipEl.style.position = "absolute";
+    tooltipEl.style.transform = "translate(-50%, 0)";
+    tooltipEl.style.transition = "all .1s ease";
+    chart.canvas.parentNode.appendChild(tooltipEl);
+  }
+  return tooltipEl;
+};
+const externalTooltipHandler = (context) => {
+  // Tooltip Element
+  const { chart, tooltip } = context;
+  const tooltipEl = getOrCreateTooltip(chart);
+  // Hide if no tooltip
+  if (tooltip.opacity === 0) {
+    tooltipEl.style.opacity = 0;
+    return;
+  }
+  // Set Body
+  if (tooltip.body) {
+    const titleLines = tooltip.title || [];
+    const bodyLines = tooltip.body.map((b) => b.lines);
+    const raw = tooltip.dataPoints[0].raw;
+    const pop = raw.pop;
+    const crimes = raw.crimes;
+    const colors = tooltip.labelColors[0];
+    // Update Info
+    tooltipEl.innerHTML = `
+      <div>
+        <div class="state-info">
+          <div class="state-info__label">State</div>
+          <div class="state-info__value">${bodyLines}</div>
+        </div>
+        <div class="licenses-info">
+          <div class="licenses-info__count-info">
+            <div class="licenses-info__count">Population (million): ${(pop/1000000).toFixed(1)}</div>
+            <div class="licenses-info__percentage">Total Crimes Recorded: ${crimes}</div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  const { offsetLeft: positionX, offsetTop: positionY } = chart.canvas;
+  // Display, position, and set styles for font
+  tooltipEl.style.opacity = 1;
+  tooltipEl.style.left = positionX + tooltip.caretX + "px";
+  tooltipEl.style.top = positionY + tooltip.caretY + "px";
+  tooltipEl.style.font = tooltip.options.bodyFont.string;
+  tooltipEl.style.padding =
+    tooltip.options.padding + "px " + tooltip.options.padding + "px";
+};
   fetch('https://unpkg.com/us-atlas/states-10m.json').then((r) => r.json()).then((us) => {
     const nation = ChartGeo.topojson.feature(us, us.objects.nation).features[0];
     const states = ChartGeo.topojson.feature(us, us.objects.states).features;
@@ -39,9 +139,9 @@ sampling errors.
           let v = data.get(state)/pop;
           if (v > max) max = v;
           if (v < min) min = v;
-          return ({feature: d, value: v});
+          return ({feature: d, value: v, pop: pop, crimes: data.get(state)});
         }
-        else return ({feature: d, value: null});
+        else return ({feature: d, value: null, pop: pop, crimes: 0});
       });
       // normalize the values to be between 0 and 1, using max and min
       values = values.map((row) => {
@@ -51,7 +151,9 @@ sampling errors.
           return row;
         }
       });
-      console.log(values);
+      values = values.map((row) => {
+        return row;
+      });
       const chart = new Chart(document.getElementById("heatmap-id").getContext("2d"), {
         type: 'choropleth',
         data: {
@@ -64,6 +166,10 @@ sampling errors.
         },
         options: {
           plugins: {
+            tooltip: {
+              enabled: false,
+              external: externalTooltipHandler,
+            },
             legend: {
               display: false
             },

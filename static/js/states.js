@@ -78,7 +78,6 @@ function convertStateToFullName(input) {
   var foundFullName = _MapAbbrFullName[strStateToFind];
   return foundFullName ;
 }
-console.log(_StatePopulations);
 function populationOfState(abbr) {
     full_name = convertStateToFullName(abbr);
     if (full_name in _StatePopulations) {
