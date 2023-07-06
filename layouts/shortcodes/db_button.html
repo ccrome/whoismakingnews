@@ -1,4 +1,5 @@
-<span href="" class="db_button" disabled>{{.Get "category"}}=<span id="{{ .Get "id" }}"></span></span>
+{{ $label := or (.Get "label") | default (.Get "category") }}
+<span href="" class="db_button" disabled><b>{{ $label }}: <span id="{{ .Get "id" }}"></b></span></span>
 {{ $category := or (.Get "category") "Trans" }}
 <script>
   crime_db.then((args) => {
@@ -10,4 +11,3 @@
       document.getElementById('{{ .Get "id" }}').innerHTML = count;
   });
 </script>
-

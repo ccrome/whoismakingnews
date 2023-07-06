@@ -12,7 +12,7 @@ Here is the latest data from {{< db_case_count id="case-count" >}} cases, as of 
 
 <div class="horizontal">
 {{< db_button id="relig-id" category="Religious Employment" >}}
-{{< db_button id="trans-id" category="Trans" >}}
+{{< db_button id="trans-id" category="Trans" label="Transgender" >}}
 {{< db_button id="drag-id" category="Drag Queen" >}}
 </div>
 
