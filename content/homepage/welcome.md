@@ -20,9 +20,9 @@ Here is the latest data from {{< db_case_count id="case-count" >}} cases, as of 
 
 **Note:** This data excludes
 {{< db_case_count id="not-included" category="Not Listed" >}} cases
-that do not have any employment or relationship included.  You can
+that do not have any employment or relationship included in the news reports.  You can
 help make the data more complete by looking in our
-[Data Section](#data) and submit any changes.
+[Data Section](#data) and submitting any changes or corrections you find.
 
 
 {{< welcome-chart id="welcome-chart" summary="true" height=300 exclude="Not Listed" >}}

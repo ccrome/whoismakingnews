@@ -29,11 +29,17 @@
         let summarize = /^true$/i.test('{{ $summarize }}');
         let summary = summarize_data(df, summarize);
         let total_cases = summary.values.reduce((ps, a) => ps + a, 0);
+        // replace 'Trans' with 'Transgender' in the labels array
+        labels = summary.labels;
+        for (i = 0; i < labels.length; i++) {
+          if (labels[i] == "Trans")
+            labels[i] = "Transgender";
+        }
 
         let chart = new Chart(ctx, {
           type: '{{ $chart_type }}',
           data: {
-            labels: summary.labels,
+            labels: labels,
             datasets: [{
               label: 'Total Crimes',
               data: summary.values,
@@ -53,7 +59,7 @@
                     const datasetIndex = context.datasetIndex;
                     const value = summary.values[dataIndex];
                     const pct = (value / total_cases * 100).toFixed(2);
-                    return `${value} cases: ${pct}%`;
+                    return `${value}/${total_cases} cases: ${pct}%`;
                   }
                 }
               },
