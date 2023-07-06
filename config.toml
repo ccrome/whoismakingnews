@@ -11,6 +11,8 @@ theme = "hugo-scroll"
 # The browser tab name
 title = "Who's Making News?"
 
+ignoreFiles = ["~$"]
+
 [markup.goldmark.renderer]
 unsafe= true
 
