@@ -25,4 +25,4 @@ The source code for the website is available on
 {{<icon class="fa fa-github">}}&nbsp;
 {{% extlink text="GitHub" 
             href="https://github.com/ccrome/whoismakingnews"
-%}}.  You can submit issues or pull requests there for any functionality or techincal issues.
+%}}.  If you have any technical issues, please open an `issue` or `pull request` there.
