@@ -24,6 +24,8 @@ data, including the central pie chart.
       // loop over each Organization, and each of its rows
       let html = "";
       orgs.forEach((org, org_name) => {
+        // sort rows of org by the date
+        org.sort((a, b) => d3.descending(a.Date, b.Date));
         html += "<h6>" + org_name.toUpperCase() + "</h6>";
         // loop through each org's rows and print out the date
         html += "<ul>";
