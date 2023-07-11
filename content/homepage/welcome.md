@@ -1,6 +1,7 @@
 ---
 title: "Welcome"
 weight: 10
+header_menu: true
 ---
 Hi, I'm Kristen Browde, and this is a site that was set up because
 people wanted to see the data that goes into my TikTok series,
