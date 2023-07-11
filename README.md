@@ -1,1 +1,4 @@
-# Who is making news
+# Who is making news for sex crimes involving children?
+This is the source code for the [https://www.whoismakingnews.com/](https://www.whoismakingnews.com/) website, which is the website for [Kristen B's excellent TikTok series](https://www.tiktok.com/@newgirlny_fl) tracking who is actually making news for sex crimes involving children. 
+
+If you have any corrections to the site itself or the functionality of the site, go ahead an open an [issue](https://github.com/ccrome/whoismakingnews/issues) or [pull request](https://github.com/ccrome/whoismakingnews/pulls) here on GitHub.  On the other hand, if you have a comment for Kristen, including the actual data or content of the website, please contact her directly at [whoismakingnews@browdelaw.com](whoismakingnews@browdelaw.com).
