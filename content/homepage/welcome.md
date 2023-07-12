@@ -27,7 +27,7 @@ help make the data more complete by looking in our
 
 {{< welcome-chart id="welcome-chart" summary="true" height=300 exclude="Not Listed" >}}
 
-**Broken out by Employment**
+**More Detailed Breakdown**
 {{< welcome-chart id="welcome-chart2" summary="false" exclude="Not Listed" height=300 >}}
 
 **Per-Capita Crime Heatmap**
