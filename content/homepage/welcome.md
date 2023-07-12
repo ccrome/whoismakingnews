@@ -26,9 +26,21 @@ help make the data more complete by looking in our
 [Data Section](#data) and submitting any changes or corrections you find.
 
 {{< welcome-chart id="welcome-chart" summary="true" height=300 exclude="Not Listed" >}}
+{{< welcome-chart id="welcome-charta" summary="true" height=300 >}}
 
 **More Detailed Breakdown**
 {{< welcome-chart id="welcome-chart2" summary="false" exclude="Not Listed" height=300 >}}
+{{< welcome-chart id="welcome-chart2a" summary="false" height=300 >}}
+
+
+<!-- add a checkbox to show the per-capita chart -->
+<div class="horizontal">
+    <input type="checkbox" id="show-not-listed" 
+    name="show-not-listed" value="show-not-listed" 
+    onclick="toggleNotListed()">
+    <label for="show-not-listed">Include Not Listed</label>
+</div>
+
 
 **Per-Capita Crime Heatmap**
 
@@ -40,3 +52,26 @@ very low populations may have an abnormally high or low crime rate due to
 sampling errors.
 
 {{< heatmap >}}
+
+
+<script>
+    function toggleNotListed() {
+        var x = document.getElementById("welcome-chart");
+        var y = document.getElementById("welcome-charta");
+        var z = document.getElementById("welcome-chart2");
+        var a = document.getElementById("welcome-chart2a");
+        if (document.getElementById("show-not-listed").checked) {
+            y.style.display = "block";
+            a.style.display = "block";
+            x.style.display = "none";
+            z.style.display = "none";
+        } else {
+            x.style.display = "block";
+            z.style.display = "block";
+            y.style.display = "none";
+            a.style.display = "none";
+        }
+    }
+    document.getElementById("welcome-charta").style.display = "none";
+    document.getElementById("welcome-chart2a").style.display = "none";
+</script>
