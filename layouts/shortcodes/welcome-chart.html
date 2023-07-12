@@ -29,8 +29,19 @@
         let summarize = /^true$/i.test('{{ $summarize }}');
         let summary = summarize_data(df, summarize);
         let total_cases = summary.values.reduce((ps, a) => ps + a, 0);
+        // if the data contains a row with a label 'Not Listed', remove it from the list and add 
+        // it to the rear of the list
+        let labels = summary.labels;
+        let values = summary.values;
+        let not_listed_index = labels.indexOf('Not Listed');
+        if (not_listed_index !== -1) {
+          v = values[not_listed_index]
+          labels.splice(not_listed_index, 1);
+          values.splice(not_listed_index, 1);
+          labels.push('Not Listed');
+          values.push(v);
+        }
         // replace 'Trans' with 'Transgender' in the labels array
-        labels = summary.labels;
         for (i = 0; i < labels.length; i++) {
           if (labels[i] == "Trans")
             labels[i] = "Transgender";
@@ -42,7 +53,7 @@
             labels: labels,
             datasets: [{
               label: 'Total Crimes',
-              data: summary.values,
+              data: values,
             }]
           },
           plugins: [
