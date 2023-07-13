@@ -48,11 +48,15 @@ async function fetch_data(url="data.csv") {
     let playlist_url      = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1711518987&single=true&output=csv';
     let df = await d3.csv(url);
     const parseDate = d3.timeParse("%m/%d/%Y");
+    let double_counted = 0;
     df.forEach(function(d) {
         d.Date = parseDate(d.Date);
         d["Trans"] = (d["Trans"].toLowerCase() === "true");
         d["Drag Queen"] = (d["Drag Queen"].toLowerCase() === "true");
         d["Deleted"] = (d["Deleted"].toLowerCase() === "true");
+        if (d["Trans"] || d["Drag Queen"]) {
+            double_counted += 1;
+        }
     });
     df = df.filter(function(d) {return d.Date != null});
     df = df.filter(function(d) {return !d.Deleted });
@@ -65,6 +69,7 @@ async function fetch_data(url="data.csv") {
         df: df,
         org: org_df,
         tiktok: tiktok_df,
+        double_counted: double_counted,
     };
     return result;
 }

@@ -17,6 +17,7 @@
 
       crime_db.then((args) => {
         let df = args.df;
+        let double_counted = args.double_counted;
         let exclude = '{{ $exclude }}';
         if (exclude.length !== 0) {
           let exclude_list = exclude.split(',');
@@ -29,6 +30,7 @@
         let summarize = /^true$/i.test('{{ $summarize }}');
         let summary = summarize_data(df, summarize);
         let total_cases = summary.values.reduce((ps, a) => ps + a, 0);
+        total_cases -= double_counted;
         // if the data contains a row with a label 'Not Listed', remove it from the list and add 
         // it to the rear of the list
         let labels = summary.labels;
