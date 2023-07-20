@@ -27,7 +27,7 @@ unsafe= true
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and https://gohugo.io/templates/internal#open-graph.
     # NOT the actual header background image, go to _index.md instead
-    images = ["images/cover-image.jpg"]
+    images = ["images/snapshot.png"]
 
     # When set true, it creates a visual guard (partially transparent rounded box), preventing non-ideal background images from interfering with title/description headings
     # Ideal images are homogenous around the centre and contrasting to the text.
