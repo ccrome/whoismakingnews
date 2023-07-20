@@ -64,6 +64,10 @@ async function fetch_data(url="data.csv") {
         return b.Date - a.Date;
     });
     let org_df = await d3.csv(organizations_url);
+    org_df.forEach(function(d) {
+        d.Date = parseDate(d.Date);
+    });
+
     let tiktok_df = await d3.csv(playlist_url);
     let result = {
         df: df,

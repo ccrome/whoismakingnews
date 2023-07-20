@@ -34,8 +34,10 @@ data, including the central pie chart.
           let predators = parseInt(row.Predators);
           let victims = parseInt(row.Victims);
           predators = predators ? `${predators} predators` : "";
-          victims = victims ? `${victims} victims` : "";          
-          html += `<li> ${row.Date} <a href="${row.URL}" target="_blank" >${row.Summary}. ${predators} ${victims}</a></li>`;
+          let date = row.Date;
+          victims = victims ? `${victims} victims` : "";
+          date = date ? `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}` : "";
+          html += `<li> ${date} <a href="${row.URL}" target="_blank" >${row.Summary}. ${predators} ${victims}</a></li>`;
         });
         html += "</ul>";
       });
