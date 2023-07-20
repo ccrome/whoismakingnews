@@ -26,12 +26,12 @@ that do not have any employment or relationship included in the news reports.
 You can help make the data more complete by looking in our
 [Data Section](#data) and submitting any changes or corrections you find.
 
-{{< welcome-chart id="welcome-chart" summary="true" height=300 exclude="Not Listed" >}}
-{{< welcome-chart id="welcome-charta" summary="true" height=300 >}}
+{{< welcome-chart id="welcome-chart" summary="true" height=300 exclude="Not Listed" title="Crimes Against Children" >}}
+{{< welcome-chart id="welcome-charta" summary="true" height=300 title="Crimes Against Children" >}}
 
 **More Detailed Breakdown**
-{{< welcome-chart id="welcome-chart2" summary="false" exclude="Not Listed" height=300 >}}
-{{< welcome-chart id="welcome-chart2a" summary="false" height=300 >}}
+{{< welcome-chart id="welcome-chart2" summary="false" exclude="Not Listed" height=300 title="Crimes Against Children Detailed" >}}
+{{< welcome-chart id="welcome-chart2a" summary="false" height=300 title="Crimes Against Children Detailed" >}}
 
 
 <!-- add a checkbox to show the per-capita chart -->

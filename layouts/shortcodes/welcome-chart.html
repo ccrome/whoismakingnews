@@ -1,6 +1,7 @@
 {{ $summarize := or (.Get "summary") "true" }}
 {{ $chart_type := or (.Get "chart_type") "bar" }}
 {{ $exclude := or (.Get "exclude") "" }}
+{{ $title := or (.Get "title") "" }}
 <div>
   <canvas id='{{ .Get "id"}}' width='{{ .Get "width" }}' height='{{ .Get "height" }}'></canvas>
   <script>
@@ -62,9 +63,34 @@
             autocolors,
           ],
           options: {
+            // set the y label
+            scales: {
+              y: {
+                title: {
+                  display: true,
+                  text: 'Number of Crimes',
+                  font: {
+                    weight: 'bold',
+                  }
+                }
+              },
+              x: {
+                title: {
+                  display: true,
+                  text: 'Access Source',
+                  font: {
+                    weight: 'bold',
+                  }
+                }
+              }
+            },
             responsive: true,
             maintainAspectRatio: false,
-            plugins: {
+            plugins: {              
+              title: {
+                  display: true,
+                  text: "{{ $title }}",
+              },
               tooltip: {
                 callbacks: {
                   label: (context) => {
