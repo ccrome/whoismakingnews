@@ -13,7 +13,7 @@ header_menu: true
       df = df.reverse();
       // loop through each row
       let html = "";
-      html += "<ul>";
+      html += '<ul class="grid-list">';
       df.forEach((row) => {
         html += `<li><a href=${row.URL} target="_blank">${row.Title}</a></li>`;
       });
