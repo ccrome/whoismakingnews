@@ -28,18 +28,19 @@ data, including the central pie chart.
         org.sort((a, b) => d3.descending(a.Date, b.Date));
         html += "<h6>" + org_name.toUpperCase() + "</h6>";
         // loop through each org's rows and print out the date
-        html += "<ul>";
+        html += '<table class="smaller-font">';
+        html += "<tr><th>Date</th><th>Summary</th><th>Predators</th><th>Victims</th></tr>";
         org.forEach((row) => {
           // get the number of predators, converting from string to integer.  blank is 0
           let predators = parseInt(row.Predators);
           let victims = parseInt(row.Victims);
-          predators = predators ? `${predators} predators` : "";
+          predators = predators ? `${predators}` : "";
           let date = row.Date;
-          victims = victims ? `${victims} victims` : "";
+          victims = victims ? `${victims}` : "";
           date = date ? `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}` : "";
-          html += `<li> ${date} <a href="${row.URL}" target="_blank" >${row.Summary}. ${predators} ${victims}</a></li>`;
+          html += `<tr><td>${date}</td><td><a href="${row.URL}" target="_blank" >${row.Summary}</td><td>${predators}</a></td><td>${victims}</td></tr>`;
         });
-        html += "</ul>";
+        html += "</table>";
       });
       document.getElementById("organizations-id").innerHTML = html;
     });
