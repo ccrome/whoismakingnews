@@ -2,8 +2,10 @@
 {{ $chart_type := or (.Get "chart_type") "bar" }}
 {{ $exclude := or (.Get "exclude") "" }}
 {{ $title := or (.Get "title") "" }}
+{{ $width := or (.Get "width") "100%" }}
+{{ $height := or (.Get "height") "100%" }}
 <div>
-  <canvas id='{{ .Get "id"}}' width='{{ .Get "width" }}' height='{{ .Get "height" }}'></canvas>
+  <canvas id='{{ .Get "id"}}' width='{{ $width }}' height='{{ $height }}'></canvas>
   <script>
     $(function() {
       

@@ -1,5 +1,5 @@
 {{ $label := or (.Get "label") | default (.Get "category") }}
-<span href="" class="db_button" disabled><b>{{ $label }}: <span id="{{ .Get "id" }}"></b></span></span>
+<span class="db_button"><b>{{ $label }}: <span id="{{ .Get "id" }}"></span></b></span>
 {{ $category := or (.Get "category") "Trans" }}
 <script>
   crime_db.then((args) => {
