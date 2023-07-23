@@ -37,8 +37,6 @@ You can help make the data more complete by looking in our
 {{< welcome-chart id="welcome-chart" summary="true" height=300 exclude="Not Listed" title="Crimes Against Children" >}}
 {{< welcome-chart id="welcome-charta" summary="true" height=300 title="Crimes Against Children" >}}
 
-this is a paragraph thing
-
 **More Detailed Breakdown**
 {{< welcome-chart id="welcome-chart2" summary="false" exclude="Not Listed" height=300 title="Crimes Against Children Detailed" >}}
 {{< welcome-chart id="welcome-chart2a" summary="false" height=300 title="Crimes Against Children Detailed" >}}
