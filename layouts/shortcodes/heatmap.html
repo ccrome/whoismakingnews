@@ -1,4 +1,6 @@
+<div>
 <canvas id="heatmap-id"></canvas>
+</div>
 <script>
   async function get_state_data() {
     return crime_db.then((data) => {
@@ -46,7 +48,6 @@ const externalTooltipHandler = (context) => {
     tooltipEl.innerHTML = `
       <div>
         <div class="state-info">
-          <div class="state-info__label">State</div>
           <div class="state-info__value">${bodyLines}</div>
         </div>
         <div class="licenses-info">
@@ -65,31 +66,27 @@ const externalTooltipHandler = (context) => {
   tooltipEl.style.top = positionY + tooltip.caretY + "px";
   tooltipEl.style.font = tooltip.options.bodyFont.string;
   tooltipEl.style.padding =
-    tooltip.options.padding + "px " + tooltip.options.padding + "px";
+  tooltip.options.padding + "px " + tooltip.options.padding + "px";
 };
   fetch('https://unpkg.com/us-atlas/states-10m.json').then((r) => r.json()).then((us) => {
     const nation = ChartGeo.topojson.feature(us, us.objects.nation).features[0];
     const states = ChartGeo.topojson.feature(us, us.objects.states).features;
     const labels = states.map((d) => d.properties.name);
-    let max = 0;
-    let min = 1e100;
     get_state_data().then((data) => {
       let values = states.map((d) => {
         let state = convertStateToAbbr(d.properties.name);
         let pop = populationOfState(state);
         if (data.has(state)) {
           let v = data.get(state)/pop;
-          if (v > max) max = v;
-          if (v < min) min = v;
           return ({feature: d, value: v, pop: pop, crimes: data.get(state)});
         }
         else return ({feature: d, value: null, pop: pop, crimes: 0});
       });
-      // normalize the values to be between 0 and 1, using max and min
       values = values.map((row) => {
         if (row.value == null) return row;
         else {
-          row.value = (row.value - min) / (max - min);
+          row.value *= 1e6; // per million
+          row.value = Math.round(row.value * 100) / 100;
           return row;
         }
       });
@@ -101,6 +98,7 @@ const externalTooltipHandler = (context) => {
         data: {
           labels: labels,
           datasets: [{
+            hoverBackgroundColor: "orange",
             label: 'States',
             outline: nation,
             data: values,
@@ -108,9 +106,17 @@ const externalTooltipHandler = (context) => {
         },
         options: {
           plugins: {
+            title: {
+              display: true,
+              text: 'Crimes against children per million population',
+              font: {
+                size: 14,
+              },
+            },
             tooltip: {
-              enabled: true,
-              // external: externalTooltipHandler,
+              enabled: false,
+              external: externalTooltipHandler,
+              position: "average",
             },
             legend: {
               display: false
@@ -118,17 +124,14 @@ const externalTooltipHandler = (context) => {
           },
           scales: {
             projection: {
-              axis: 'x',
+              axis: 'xy',
               projection: 'albersUsa'  
             },
             color: {
               axis: 'x',
               interpolate: 'interpolateOrRd',
-              quantize: 10,
-              legend: {
-                position: 'bottom-right',
-                align: 'bottom'
-              },
+              quantize: 20,
+              display: true,
             }
           },
         }
