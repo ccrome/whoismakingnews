@@ -86,23 +86,24 @@ ul.grid-list li {
 
 /* for the map */
 .licenses-info-popup {
-  background: #fff;
-	box-shadow: 0px 0px 2px #bbb;
+  background: #e2dfd8;
+	box-shadow: 0px 0px 2px #888;
 	border-radius: 4px;
 	display: inline-block;
 	padding: 6px;
 	font-family: arial;
-	font-size: 14px;
+	font-size: 12px;
 }
 .state-info {
 	border-bottom: 1px solid rgb(223, 223, 223.6);
 	padding-bottom: 1px;
-	margin-bottom: 10px;
+	margin-bottom: 1px;
 	&__value {
 		font-weight: bold;
 	}
 }
 .licenses-info {
+	margin-bottom: 0px;
 	display: flex;
 	&__label {
 		padding-left: 8px;
