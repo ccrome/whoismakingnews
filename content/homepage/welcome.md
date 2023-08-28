@@ -49,7 +49,7 @@ You can help make the data more complete by looking in our
 This map shows the crimes involving children per state, per million population.
 The darker the color, the higher the per-capita crime rate.
 Some states with very low populations may have an abnormally high or low crime rate due to 
-sampling errors.
+quirks in the way statistics work with small sample sizes.
 
 {{< heatmap >}}
 
