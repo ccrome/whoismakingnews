@@ -9,7 +9,7 @@ people wanted to see the data that goes into my TikTok series,
 
 #### Who is really committing crimes against children?
 
-Here is the latest data from {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}.
+Here is the data from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}.
 
 <div class="horizontal">
 {{< db_button id="relig-id" category="Religious Employment" >}}
