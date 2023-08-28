@@ -45,7 +45,7 @@ reports can get delayed, throwing off the week in which an incident
 appears in the TikTok reports - some incidents may get added into
 totals for the week or so following occurence.
 
-1. We can't be certain that Google's spiders get everywhere, so some
+1. We can't be certain that the spiders get everywhere, so some
 reports could, theoretically, be missed. 
 
 1. Not all arrests or convictions result in news coverage, and there
@@ -57,13 +57,11 @@ whether those unreported crimes skew in any particular direction. Some
 commenters have assumed that churches cover up many incidents, but
 these reports make no assumptions about that. 
 
-1. One thing that throws gross numbers off slightly is that a single
+1. One thing that in the past has thrown gross numbers off slightly is that a single
 incident will result in stories at various milestones. For example, a
 Catholic Cardinal generated stories when arrested, when going to trial
-and when found to be not competent to stand trial. I filter for that
-except when the story is vital (such as the ones about the Catholic
-cardinal) and will always try to correct the totals in the TikTok
-reports.
+and when found to be not competent to stand trial. I try to filter for that
+by either deleting duplicates (if you download data, look for the "deleted" column!) or updating existing entries, which creates a problem with the date on which an entry shows up, but otherwise should keep the gross numbers of offenders correct.
 
 1. Why are the numbers in the data set different from the TikTok you
 just watched? Simple: I update as I receive and categorize
@@ -82,7 +80,7 @@ or if they're either obtaining them from or sending them to minors,
 obviously the  individuals are also alleged to be committing a crime
 directly involving a child, so they would be included. 
 
-So here we are. The results from the first four months have right
+So here we are. The results from the first six months have right
 wingers tossing around all sorts of accusations about "agendas" and
 "cherry picking."  But the facts are these: I don't leave any cases
 out or attempt to tweak the data. It is what it is - which is what has
