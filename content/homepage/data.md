@@ -33,8 +33,7 @@ arrests.  I add to those links those that I find through keyword
 searches using various search engines, and, recently, using AI. I also run a check against Reddit's  {{<extlink
 text="Not a Drag Queen subredit" href="https://www.reddit.com/r/NotADragQueen//">}}.
 
-Because the serious data recording isn't consistent in the first seven
-weeks it's my intention to make sure we have at least a year of full data - which means the
+It's my intention to make sure we have at least a year of full data on which to base a report. But there was definitely a learning curve in gathering the data, and my view is that during the first seven weeks or so data collection was inconsistent. While I'm trying to fill that data in using the techniques that have been developed, I expect to throw out those first seven weeks before putting together the report. That means the
 series will run at least through week 60, assuming nothing happens to
 prevent me from completing that task.  
 
