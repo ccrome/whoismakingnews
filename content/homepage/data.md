@@ -75,9 +75,8 @@ that - a duplicate name filter - but it's not implemented yet.)
 
 I avoid cases that are just "materials" cases, involving
 pictures/videos (those would, unfortunately, be far too many to
-catalogue) - the cases on which I report relate to actual assaults on
-children.  However, if the case involves someone making the materials
-or if they're either obtaining them from or sending them to minors,
+catalogue) - and I also do not include "sting" cases, where the perpetrator is connecting with an undercover law enforcement officer and never actually is in contact with a child. The cases included here relate solely to actual assaults on
+children in the United States with the reports being published during the study time period.  Note, however, that if the case involves someone making the materials or if they're either obtaining them from or sending them to minors,
 obviously the  individuals are also alleged to be committing a crime
 directly involving a child, so they would be included. 
 
