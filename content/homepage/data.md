@@ -34,8 +34,7 @@ searches using various search engines, and, recently, using AI. I also run a che
 text="Not a Drag Queen subredit" href="https://www.reddit.com/r/NotADragQueen//">}}.
 
 Because the serious data recording isn't consistent in the first seven
-weeks, the data on this site starts at Week 8, and it's my intention
-to make sure we have at least a year of full data - which means the
+weeks it's my intention to make sure we have at least a year of full data - which means the
 series will run at least through week 60, assuming nothing happens to
 prevent me from completing that task.  
 
