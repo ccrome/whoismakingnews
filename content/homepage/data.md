@@ -28,9 +28,10 @@ The transgender population of the United States has been estimated at anywhere f
 I start the weekly research with the excellent {{<extlink
 text="JoeMyGod blog" href="https://www.joemygod.com/">}}. JoeMyGod
 tracks cases involving religious figures and politicians really well,
-and provides solid links to the stories about the incidents and
+and provides solid links to the stories about incidents and
 arrests.  I add to those links those that I find through keyword
-searches using various search engines, and, recently, using AI.  
+searches using various search engines, and, recently, using AI. I also run a check against Reddit's  {{<extlink
+text="Not a Drag Queen subredit" href="https://www.reddit.com/r/NotADragQueen//">}}.
 
 Because the serious data recording isn't consistent in the first seven
 weeks, the data on this site starts at Week 8, and it's my intention
