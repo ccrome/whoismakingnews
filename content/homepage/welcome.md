@@ -7,7 +7,7 @@ Hi, I'm Kristen Browde, and this is a site that was set up because
 people wanted to see the data that goes into my TikTok series,
 [Who's Making News for Sex Crimes involving Children.](#tiktok)
 
-#### Who is really committing crimes against children?
+#### Who is actually committing crimes against children?
 
 Here is the data from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}.
 
@@ -18,6 +18,8 @@ Here is the data from the latest {{< db_case_count id="case-count" >}} cases, as
 </div>
 
 **Summarized data**
+
+##### NEW: A terrific data analyst, Emily Parker, who runs DataViz.fyi, has created a new graphical display breaking down the data in ways I hadn't even imagined. We're going to integrate it here, but for now: <div id="minicontent" style="text-align:center; min-width:1280px; min-height:2560px;"><iframe width="1200" height="2540" src="https://lookerstudio.google.com/embed/reporting/74af7476-c667-4a7c-8b89-1e5394e6c689/page/6KJYD" frameborder="0" style="border:0" allowfullscreen="" style="display:block;"></iframe></div>
 
 **Note:** Unless you check the `Include Not Listed` checkbox below, 
 the charts will exclude
