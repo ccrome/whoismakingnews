@@ -75,7 +75,10 @@ quirks in the way statistics work with small sample sizes.
     document.getElementById("welcome-charta").style.display = "none";
     document.getElementById("welcome-chart2a").style.display = "none";
 </script>
+<br>
 
-##### NEW: A terrific data analyst, Emily Parker, who runs DataViz.fyi, has created a graphical analysis breaking down the data in ways I hadn't even imagined. Note: There is a short lag between the time we enter data and the time it filters through to Emily's analysis page - which only matters right after I finish adding to the database. 
+##### What conclusions can you draw from the numbers to date?
 
-The analysis pages for now are a little bit squished - while we work on better integration into the main site: <div id="minicontent" style="text-align:left; min-width:1280px; min-height:2560px;"><iframe width="850" height="2540" src="https://lookerstudio.google.com/embed/reporting/74af7476-c667-4a7c-8b89-1e5394e6c689/page/6KJYD" frameborder="0" style="border:0" allowfullscreen="" style="display:block;"></iframe></div>\
+A terrific data analyst, Emily Parker, who runs DataViz.fyi, has created a graphical analysis breaking down the data and drawing some vital comparisons. Note: There is a short lag between the time we enter data and the time it filters through to Emily's analysis page - which only matters right after I finish adding to the database. 
+
+The analysis page and its subpages are a little bit squished for now, while we work on better integration into the main site: <div id="minicontent" style="text-align:left; min-width:1280px; min-height:2560px;"><iframe width="850" height="2540" src="https://lookerstudio.google.com/embed/reporting/74af7476-c667-4a7c-8b89-1e5394e6c689/page/6KJYD" frameborder="0" style="border:0" allowfullscreen="" style="display:block;"></iframe></div>\
