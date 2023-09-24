@@ -77,7 +77,7 @@ quirks in the way statistics work with small sample sizes.
 </script>
 <br>
 
-Data footnote: with the help of other TikTok members, one, in particular, Emily, who has been super helpful, we're engaged in data cleanup on a daily basis. That means you should consider all the data a work in progress, and you may see numbers go down from time to time, as we find duplicate entries, typically caused when there's either a minor spelling issue in reports or when there's an update in a case and we miss the earlier entry. When we find those updated or duplicate entries they're checked as "deleted" in the database, but you can still see the original data, with the deleted notation, if you download the full data file - which you can do by clicking on the "Data" tab on the left. <BR>
+Data footnote: with the help of other TikTok members, one, in particular, Celiene, who has been super helpful, we're engaged in data cleanup on a daily basis. That means you should consider all the data a work in progress, and you may see numbers go down from time to time, as we find duplicate entries, typically caused when there's either a minor spelling issue in reports or when there's an update in a case and we miss the earlier entry. When we find those updated or duplicate entries they're checked as "deleted" in the database, but you can still see the original data, with the deleted notation, if you download the full data file - which you can do by clicking on the "Data" tab on the left. <BR>
 
 ##### What conclusions can you draw from the numbers to date?
 
