@@ -77,8 +77,10 @@ quirks in the way statistics work with small sample sizes.
 </script>
 <br>
 
+Data footnote: with the help of other TikTok members, one, in particular, Emily, who has been super helpful, we're engaged in data cleanup on a daily basis. That means you should consider all the data a work in progress, and you may see numbers go down from time to time, as we find duplicate entries, typically caused when there's either a minor spelling issue in reports or when there's an update in a case and we miss the earlier entry. When we find those updated or duplicate entries they're checked as "deleted" in the database, but you can still see the original data, with the deleted notation, if you download the full data file - which you can do by clicking on the "Data" tab on the left. <BR>
+
 ##### What conclusions can you draw from the numbers to date?
 
 A terrific data analyst, Emily Parker, who runs DataViz.fyi, has created a graphical analysis breaking down the data and drawing some vital comparisons. Note: There is a short lag between the time we enter data and the time it filters through to Emily's analysis page - which only matters right after I finish adding to the database. 
 
-The analysis page and its subpages are a little bit squished for now, while we work on better integration into the main site: <div id="minicontent" style="text-align:left; min-width:1280px; min-height:2560px;"><iframe width="850" height="2540" src="https://lookerstudio.google.com/embed/reporting/74af7476-c667-4a7c-8b89-1e5394e6c689/page/6KJYD" frameborder="0" style="border:0" allowfullscreen="" style="display:block;"></iframe></div>\
+<div id="minicontent" style="text-align:left; min-width:1280px; min-height:2560px;"><iframe width="850" height="2540" src="https://lookerstudio.google.com/embed/reporting/74af7476-c667-4a7c-8b89-1e5394e6c689/page/6KJYD" frameborder="0" style="border:0" allowfullscreen="" style="display:block;"></iframe></div>\
