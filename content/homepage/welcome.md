@@ -7,7 +7,8 @@ Hi, I'm Kristen Browde, and this is a site that was set up because
 people wanted to see the data that goes into my TikTok series,
 [Who's Making News for Sex Crimes involving Children.](#tiktok)
 
-####  As of 10 AM 11/4/23 THE SITE IS TEMPORARILY DOWN BECAUSE GOOGLE HAS DECLARED THAT THE DATA CONSITUTES A VIOLATION OF ITS TERMS OF SERVICE. WE'RE WORKING ON THE ISSUE - IT'S BIZARRE THAT GOOGLE THINKS AGGREGATION OF NEWS REPORTS ABOUT CRIME IS A TOS VIOLATION...BUT THERE IT IS - MEANWHILE THE REPORTING ON TIKTOK WILL CONTINUE
+####  As of 10 AM 11/4/23 We LOST FUNCTIONALITY IN THE TOP OF THE SITE - But the data calculations and visualizations lower on the page are still working. This happened when Google declared that our main data sheet was in violation of its terms of service. We're working to restore full functionality and, in the meantime appealing Google's bizarre decision. And our TikTok reports will continue.
+h
 Who is actually committing crimes against children?
 
 Here is the data from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}.
