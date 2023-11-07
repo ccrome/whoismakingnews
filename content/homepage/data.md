@@ -6,7 +6,7 @@ header_menu: true
 
 **Download the data here**
 
-The data is freely available for you to sort and slice however you like.  You can get either the original source data as a google sheet (which you can then download as an excel sheet), or just grab it as a .csv file.  
+The data (usually) is freely available for you to sort and slice however you like.  You can get either the original source data as a google sheet (which you can then download as an excel sheet), or just grab it as a .csv file.  This functionality will be restored as soon as we can unsnarl the Google Sheets problem. In the meantime the data is below, under "Raw Data and Notes"
 
 If you have a case we missed, or found any errors, [please use the contact form at the bottom of this page](#contact)
 
