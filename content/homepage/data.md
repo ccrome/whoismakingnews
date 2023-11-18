@@ -10,7 +10,7 @@ The data (usually) is easily available for you to sort and slice however you lik
 
 If you have a case we missed, or found any errors, [please use the contact form at the bottom of this page](#contact)
 
-{{< extlink-button href="https://docs.google.com/spreadsheets/d/1elsbndPZiOYBa4d0Tj8mLjiodNNUgCWCyoUZJzE0gZY/edit?usp=sharing" text="Data Source" >}}
+{{< extlink-button href="[https://docs.google.com/spreadsheets/d/1elsbndPZiOYBa4d0Tj8mLjiodNNUgCWCyoUZJzE0gZY/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit?usp=sharing)" text="Data Source" >}}
 {{< extlink-button href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1732993794&single=true&output=csv" text="As CSV" >}}
 
 ##### A note about who's included in the "religious affiliated" category.
