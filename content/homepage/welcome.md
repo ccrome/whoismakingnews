@@ -5,7 +5,7 @@ header_menu: true
 ---
 Hi, I'm Kristen Browde, and this is a site that was set up because
 people wanted to see the data that goes into my TikTok series,
-[Who's Making News for Sex Crimes involving Children.](#tiktok)
+Who's Making News for Sex Crimes Involving Childen.
 
 ####  So, there's good news and not so good news. 
 
