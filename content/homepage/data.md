@@ -6,7 +6,7 @@ header_menu: true
 
 **Download the data here**
 
-The data (usually) is easily available for you to sort and slice however you like.  Not it's just more complicated, thanks to the wonderful folks at Google, who apparently can't tell the difference between data and something nefarious. So scroll to the visualizations area, click the tab for raw data, and look for the download link. Once we get Google's nutty little moderation team back to reality, you'll once again be able to easily get either the original source data as a google sheet (which you can then download as an excel sheet), or just grab it as a .csv file.  This functionality will be restored as soon as we can unsnarl the Google Sheets problem. In the meantime a link to download the data can be found in the graphical area above, under link to "Raw Data and Notes" - in the upper right hand corner of the table.
+The data I use is available for you to sort and slice however you like.  Download it as an excel sheet or a .csv file.   We also have some presorted options for you down in the visualizations area, under the "Raw Data and Notes" tab.
 
 If you have a case we missed, or found any errors, [please use the contact form at the bottom of this page](#contact)
 
