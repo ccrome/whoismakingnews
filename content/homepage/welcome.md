@@ -7,10 +7,7 @@ Hi, I'm Kristen Browde, and this is a site that was set up because
 people wanted to see the data that goes into my TikTok series,
 Who's Making News for Sex Crimes Involving Childen.
 
-####  So, there's good news and not so good news. 
-
-We have new visualizations - see the white area below and the link to the "current seven days analysis" below. But - as of November 4, 2023 we lost functionality in the top of the site, when some crackpot at Google declared that our main data sheet is in violation of its terms of service. We're working to restore full functionality and, in the meantime the Visualizations and data tabulations in the white area below work, and our weekly reports on TikTok will continue.
-
+#### 
 Who is actually committing crimes against children?
 
 Here is the data from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}.
