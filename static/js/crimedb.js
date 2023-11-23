@@ -43,9 +43,9 @@ function group_cats(d) {
 // Return a promise for all rows of the data
 // this will always be sorted most recent first.
 async function fetch_data(url="data.csv") {
-    url               = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1732993794&single=true&output=csv';
-    let organizations_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1777626061&single=true&output=csv';
-    let playlist_url      = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRsWWugIo1pp0Xc1WmMmvawFzQslpUqlIMCjw3JhwOrW2sS6gOvXv3C_TV9eHAD46wjiaqzPNvLbRUT/pub?gid=1711518987&single=true&output=csv';
+    url               = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTFkO7ioMicWFaGDT7eqyojtDveMEm3ueefzorCz8YnrBcxqyB1NGnrT7cC6_7ci-uIffoo2d1oZikM/pub?gid=1882457294&single=true&output=csv';
+    let organizations_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTFkO7ioMicWFaGDT7eqyojtDveMEm3ueefzorCz8YnrBcxqyB1NGnrT7cC6_7ci-uIffoo2d1oZikM/pub?gid=1579004445&single=true&output=csv';
+    let playlist_url      = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTFkO7ioMicWFaGDT7eqyojtDveMEm3ueefzorCz8YnrBcxqyB1NGnrT7cC6_7ci-uIffoo2d1oZikM/pub?gid=1061101292&single=true&output=csv';
     let df = await d3.csv(url);
     const parseDate = d3.timeParse("%m/%d/%Y");
     let double_counted = 0;
