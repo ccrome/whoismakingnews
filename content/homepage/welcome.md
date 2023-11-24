@@ -10,7 +10,7 @@ Who's Making News for Sex Crimes Involving Childen.
 #### 
 Who is actually committing crimes against children?
 
-Here is the data from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}.
+Here is the data from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}. You may see a slight delay in the posting of the latest data - we're recovering from some technical issues, and just getting back to normal. (11/23/2023)
 
 <div class="horizontal">
 {{< db_button id="relig-id" category="Religious Employment" >}}
