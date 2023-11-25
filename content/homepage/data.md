@@ -11,7 +11,7 @@ The data I use is available for you to sort and slice however you like.  Downloa
 If you have a case we missed, or found any errors, [please use the contact form at the bottom of this page](#contact)
 
 {{< extlink-button href="[https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit?usp=sharing/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit?usp=sharing)" text="Data Source" >}}
-{{< extlink-button href="[https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/pub?gid=1732993794](https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit?usp=sharing)&single=true&output=csv" text="As CSV" >}}
+{{< extlink-button href="[[https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/pub?gid=1732993794](https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit?usp=sharing)&single=true&output=csv](https://docs.google.com/spreadsheets/d/e/2PACX-1vQKgYK3U0GfyYFFptNmUcgJIOIKlR1YAAIjPQEGzS_X34g-rV1hqPbs2CqBB4l_ZRcnAunDbAdYzW8E/pub?gid=1882457294&single=true&output=csv)" text="As CSV" >}}
 
 ##### A note about who's included in the "religious affiliated" category.
 It is not just full time employees or ordained staff. The Bureau of Labor Statistics says there are only approximately 60,000 paid pastors in the United States. But with unpaid pastors religious organizations say the real number is closer to 600,000. That is just under two tenths of one percent of the American population (.0018 of population, to be precise).
