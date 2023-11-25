@@ -6,7 +6,7 @@ header_menu: true
 
 **Download the data here**
 
-The data I use is available for you to sort and slice however you like - but the easy way to do it isn't working yet as we recover from our google issues.  So for now look under the Raw Data and Notes tab in the visualizations area... once these buttons are working again I'll remove this sentenced. (11/25/2023) Download it as an excel sheet or a .csv file.   We also have some presorted options for you down in the visualizations area, under the "Raw Data and Notes" tab.
+The data I use is available for you to sort and slice however you like - Download it as an excel sheet or a .csv file.   We also have some presorted options for you down in the visualizations area, under the "Raw Data and Notes" tab.
 
 If you have a case we missed, or found any errors, [please use the contact form at the bottom of this page](#contact)
 
