@@ -5,7 +5,7 @@ header_menu: true
 ---
 Hi, I'm Kristen Browde, and this site was set up for two reasons: 1) because
 people wanted to see the data that goes into my TikTok series,
- {{}}  {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}, and 2) because data transparency is important - it's vital that all this data be verifiable and that any researcher or fact checker can have easy access. This collection of data started in mid-February 2023 and is limited to the United States only. 
+ {{}}  {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}, and 2) because I believe that data transparency is important - it's vital that all this data be verifiable and that any researcher or fact checker can have easy access. This collection of data started in mid-February 2023 and is limited to the United States only. 
 <BR>
 <BR>
 As you'll see below, the data unambiguously debunks the claims made by some right wing politicians and those in the religion industry who assert that the LGBTQ+ population is responsible for "grooming" or attacking children. 
