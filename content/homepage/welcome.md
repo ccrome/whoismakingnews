@@ -5,7 +5,7 @@ header_menu: true
 ---
 Hi, I'm Kristen Browde, and this site was set up because
 people wanted to see the data that goes into my TikTok series,
-Who's Making News for Sex Crimes Involving Childen. The collection of data started in mid-February 2023, and, as you'll see below, the data unambiguously debunks the claims made by some right wing politicians and religious figures who assert that the LGBTQ+ population is responsible for "grooming" or attacking children. 
+Who's Making News for Sex Crimes Involving Childen. The collection of data started in mid-February 2023, and, as you'll see below, the data unambiguously debunks the claims made by some right wing politicians and some in the religion industry who assert that the LGBTQ+ population is responsible for "grooming" or attacking children. 
 
 #### 
 Who is actually committing crimes against children?
