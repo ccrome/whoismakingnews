@@ -3,10 +3,9 @@ title: "Data"
 weight: 25
 header_menu: true
 ---
-
 Download the data here
 
-The data I use is available for you to sort and slice however you like - but the easy way to do it isn't working yet as we recover from our google issues. So for now look under the Raw Data and Notes tab in the visualizations area... once these buttons are working again I'll remove this sentenced. (11/25/2023) Download it as an excel sheet or a .csv file. We also have some presorted options for you down in the visualizations area, under the "Raw Data and Notes" tab.
+The data I use is available for you to sort and slice however you like - Download it as an excel sheet or a .csv file. We also have some presorted options for you down in the visualizations area, under the "Raw Data and Notes" tab.
 
 If you have a case we missed, or found any errors, please use the contact form at the bottom of this page
 
@@ -21,7 +20,7 @@ For those who want per capita comparisons:
 The transgender population of the United States has been estimated at anywhere from one half of one percent to two percent of the population, with some estimates as high as five percent of GenZ. Even though that is likely a substantial undercount of the transgender population (because many gender non conforming people live in the woodwork) we use the lower estimate, which would put the transgender population at 1,650,000, more than 2 1/2 times the size of the pastor population.
 
 Where does the data come from?
-I start the weekly research with the excellent {{}}. JoeMyGod tracks cases involving religious figures and politicians really well, and provides solid links to the stories about incidents and arrests. I add to those links those that I find through keyword searches using various search engines, and, recently, using AI. I also run a check against Reddit's {{}}.
+I start the weekly research with keyword searches using various search engines, and, recently, have experimented (not entirely successfully) with using AI. I also run a check against the excellent {{}}. JoeMyGod tracks cases involving religious figures and politicians really well, and provides solid links to the stories about incidents and arrests. I add to those links those that I find through Reddit's {{}}, as well as a couple of other sources, including {{}} , which tracks Mormon Church offenders.
 
 It's my intention to make sure we have at least a year of full data on which to base a report. But there was definitely a learning curve in gathering the data, and my view is that during the first seven weeks or so data collection was inconsistent. While I'm trying to fill that data in using the techniques that have been developed, I expect to throw out those first seven weeks before putting together the report. That means the series will run at least through week 60, assuming nothing happens to prevent me from completing that task.
 
