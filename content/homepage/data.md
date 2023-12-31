@@ -11,7 +11,13 @@ If you have a case we missed, or found any errors, please use the contact form a
 
 {{< extlink-button href="https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit#gid=1882457294" text="Data Source" >}} {{< extlink-button href="https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit#gid=1882457294&single=true&output=csv" text="As CSV" >}}
 
-A note about who's included in the "religious affiliated" category.
+WHAT'S IN THE DATA AND WHAT IS NOT!
+The cases in our database meet the following tests:
+1. The story including the information is published after Feb. 15, 2023 - that's when this study began.
+2. The story relates to the actual sexual abuse of a child. Thus, stings, attempts, and cases involving possession or transmission of Child Sexual Exploitation Materials only are not included. However, if the perpetrator is alleged to have communicated with an actual minor or created the materials, that is within the parameters.
+3. The conduct must have taken place in the United States. 
+
+A NOTE ABOUT WHO'S INCLUDED IN THE "RELIGIOUS AFFILIATED" CATEGORY:
 It is not just full time employees or ordained staff. The Bureau of Labor Statistics says there are only approximately 60,000 paid pastors in the United States. But with unpaid pastors religious organizations say the real number is closer to 600,000. That is just under two tenths of one percent of the American population (.0018 of population, to be precise).
 
 We include in our "religious affiliated" total people who are named in the media reports we catalogue as pastors, youth pastors, priests, brothers, nuns, missionaries, bishops, deacons, church officials, Sunday school teachers, teachers in religious schools, etc. We do not include people who are just listed as members of a church.
