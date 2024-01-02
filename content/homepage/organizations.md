@@ -7,9 +7,9 @@ header_menu: true
 ##### ORGANIZATIONS MAKING NEWS
 
 Our [Data](#data) Page contains the reports of individuals who make
-news. This page is for the organizations which make news because of
+news. The bad news is it isn't working right now - but the data on organizations which make news because of
 massive scandals, coverups or other actions that result in stories
-involving abuse of children. Like our data page, we link to the source
+involving abuse of children is still available if you download the raw data spreadsheet - there's an Organizations tab. Like our data page, we link to the source
 data and leave no reports out. Because these reports typically involve
 abuse over long periods of time, outside our study period, these
 reports are not tabulated in our percentage or individual offender
