@@ -32,14 +32,15 @@ It's my intention to make sure we have at least a year of full data on which to 
 
 It's important to note, as you review the data, that the media story collection model has some important limitations.
 
-This data, while hopefully representative and relatively proportional, is a vast understatement of the scope of the Child Sexual Abuse problem in the United States. Based on statistics released by the Children's Bureau of the U.S. Department of Health and Human Services, I estimate that somewhere on the order of 1 out of every 40-50 cases of abuse actually get reported publicly. One example of how this plays out is the State of West Virginia, where the West Virginia Child Advocacy Network reports that during calendar year 2023 served over 2700 individual victims of child sex abuse - and that organization is present in 46 of the 55 West Virginia categories. By contrast, in our data, there are only 75 West Virginia cases.   
+This data, while hopefully representative and relatively proportional, is a vast understatement of the scope of the Child Sexual Abuse problem in the United States. Based on statistics released by the Children's Bureau of the U.S. Department of Health and Human Services, I estimate that somewhere on the order of 1 out of every 40-50 cases of abuse actually get reported publicly. One example of how this plays out is the State of West Virginia, where the West Virginia Child Advocacy Network reports that during calendar year 2023 served over 2700 individual victims of child sex abuse - and that organization is present in 46 of the 55 West Virginia categories. By contrast, in our data, there are only 75 West Virginia cases.  
+
 Web crawlers/spiders don't get to every website every day. Thus reports can get delayed, throwing off the week in which an incident appears in the TikTok reports - some incidents may get added into totals for the week or so following occurence.
 
 We can't be certain that the spiders get everywhere, so some reports could, theoretically, be missed.
 
 Not all arrests or convictions result in news coverage, and there is no central registry of cases. Those non-media reported cases will, therefore, not be reflected in the data.
 
-It's assumed that many crimes go unreported. There's no data on whether those unreported crimes skew in any particular direction. Some commenters have assumed that churches cover up many incidents, but these reports make no assumptions about that.
+It's assumed that many more crimes go completely unreported. There's no data on whether those unreported crimes skew in any particular direction. Some commenters have assumed that churches cover up many incidents, but these reports make no assumptions about that.
 
 One thing that in the past has thrown gross numbers off slightly is that a single incident will result in stories at various milestones. For example, a Catholic Cardinal generated stories when arrested, when going to trial and when found to be not competent to stand trial. I try to filter for that by either deleting duplicates (if you download data, look for the "deleted" column!) or updating existing entries, which creates a problem with the date on which an entry shows up, but otherwise should keep the gross numbers of offenders correct.
 
