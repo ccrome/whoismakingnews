@@ -12,6 +12,7 @@ If you have a case we missed, or found any errors, please use the contact form a
 {{< extlink-button href="https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit#gid=1882457294" text="Data Source" >}} {{< extlink-button href="https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit#gid=1882457294&single=true&output=csv" text="As CSV" >}}
 
 WHAT'S IN THE DATA AND WHAT IS NOT!
+
 The cases in our database meet the following tests:
 1. The story including the information is published after Feb. 15, 2023 - that's when this study began.
 2. The story relates to the actual sexual abuse of a child. Thus, stings, attempts, and cases involving possession or transmission of Child Sexual Exploitation Materials only are not included. However, if the perpetrator is alleged to have communicated with an actual minor or created the materials, that is within the parameters.
