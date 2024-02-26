@@ -3,13 +3,12 @@ title: "Welcome"
 weight: 10
 header_menu: true
 ---
-Hi, I'm Kristen Browde, and this site was set up for two reasons: 1) because
-people wanted to see the data that goes into my TikTok series,
-   {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}} and 2) because I believe that data transparency is important - it's vital that all this data be verifiable and that any researcher or fact checker can have easy access. This collection of data started in mid-February 2023 and is limited to the United States only. The rules are simple: the data consists of crimes involving actual assaults on children. Therefore it does not include arrests in "sting" or CSAM possession cases, except where the perpetrator is charged with creating the CSAM, and thus has direct contact with a victim.
+This site was set up for two reasons: 1) because people wanted to see and check the data that goes into my TikTok series,
+   {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}} and 2) because I believe that data matters - it's vital that all this data be verifiable and that any researcher or fact checker can have easy access. This collection of data started in mid-February 2023 and is limited to the United States only. The rules are simple: the data consists of crimes involving actual assaults on children. Therefore it does not include arrests in "sting" or CSAM possession cases, except where the perpetrator is charged with creating the CSAM, and thus has direct contact with a victim.
 <BR>
 
 #### 
-The Goal: Determining who is actually committing crimes against children.
+The Goal: fact checking right wing narratives about sex crimes against children.
 
 Here is the data from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}. 
 
