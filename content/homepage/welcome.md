@@ -17,7 +17,7 @@ Here is the data from the latest {{< db_case_count id="case-count" >}} cases, as
 {{< db_button id="trans-id" category="Trans" label="Transgender" >}}
 {{< db_button id="drag-id" category="Drag Queen" >}}
 </div>
-
+<br> I encourage you to fact check the data. Use the "Data" tab on the left to download the full database. <br>
 **Summarized data**
 
 **Note:** Unless you check the `Include Not Listed` checkbox below, 
