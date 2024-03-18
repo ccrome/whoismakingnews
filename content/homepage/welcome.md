@@ -14,9 +14,8 @@ The data collection started in mid-February 2023 and is limited to the United St
 You can help make the data more complete by looking in our
 [Data Section](#data) and submitting any changes or corrections you find.
 
-
 <BR>
-Scroll down for the data visualizations and analysis, but, right here is the data from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}. 
+You can Scroll down for the data visualizations and analysis, but immediately below is the data summary from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}. 
 
 <div class="horizontal">
 {{< db_button id="relig-id" category="Religious Employment" >}}
