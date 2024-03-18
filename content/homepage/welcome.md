@@ -22,8 +22,8 @@ You can Scroll down for the data visualizations and analysis, but immediately be
 {{< db_button id="trans-id" category="Trans" label="Transgender" >}}
 {{< db_button id="drag-id" category="Drag Queen" >}}
 </div>
-<br> I encourage you to fact check the data. Use the "Data" tab on the left to download the full database. <br>
-**Summarized data**
+<br> I encourage you to fact check the data. Use the "Data" tab on the left to download the full database. <BR>
+**For those who want a quick data summary (for full details scroll down)**
 
 **Note:** Unless you check the `Include Not Listed` checkbox below, 
 the charts will exclude
@@ -85,7 +85,7 @@ Data footnote: with the assistance of other TikTok members, one, in particular, 
 
 A terrific data analyst, Emily Parker, who runs DataViz.fyi, has created a graphical analysis breaking down the data and drawing some vital comparisons. Note: There is a short lag between the time we enter data and the time it filters through to Emily's analysis page - the lag only shows up in the minutes right after I finish adding to the database. 
 
-<div id="minicontent" style="text-align:left; min-width:1280px; min-height:2560px;"><iframe width="850" height="2540" src="https://lookerstudio.google.com/embed/reporting/74af7476-c667-4a7c-8b89-1e5394e6c689/page/6KJYD" frameborder="0" style="border:0" allowfullscreen="" style="display:block;"></iframe></div>\
+<div id="minicontent" style="text-align:left; min-width:1280px; min-height:2560px;"><iframe width="850" height="2540" src="https://lookerstudio.google.com/embed/reporting/74af7476-c667-4a7c-8b89-1e5394e6c689/page/6KJYD" frameborder="0" style="border:0" allowfullscreen="" style="display:block;"></iframe></div>
 
 **And if you want to look just at current trends, here's a link to a visualization
 developed by Eric Graham, which opens in a new window** https://erksome.shinyapps.io/WMN_Analysis/
