@@ -77,13 +77,13 @@ The darker the color, the higher the per-capita crime rate.
 </script>
 <br>
 
-Data footnote: with the assistance of other TikTok members, one, in particular, Celiene O'Hara, who has been super helpful, we're engaged in data cleanup as well as updating on a daily basis. That means you should consider all the data a work in progress, and you may see numbers go down from time to time, as we find duplicate entries, typically caused when there's either a minor spelling issue in reports or when there's an update in a case and we miss the earlier entry. When we find those updated or duplicate entries they're checked as "deleted" in the database, but you can still see the original data, with the deleted notation, if you download the full data file - which you can do by clicking on the "Data" tab on the left. <BR>
-
 ##### What conclusions can you draw from the numbers to date?
 
 A terrific data analyst, Emily Parker, who runs DataViz.fyi, has created a graphical analysis breaking down the data and drawing some vital comparisons. Note: There is a short lag between the time we enter data and the time it filters through to Emily's analysis page - the lag only shows up in the minutes right after I finish adding to the database. 
 
 <div id="minicontent" style="text-align:left; min-width:1280px; min-height:2560px;"><iframe width="850" height="2540" src="https://lookerstudio.google.com/embed/reporting/74af7476-c667-4a7c-8b89-1e5394e6c689/page/6KJYD" frameborder="0" style="border:0" allowfullscreen="" style="display:block;"></iframe></div>
+
+Data footnote: with the assistance of other TikTok members, one, in particular, Celiene O'Hara, who has been super helpful, we're engaged in data cleanup as well as updating on a daily basis. That means you should consider all the data a work in progress, and you may see numbers go down from time to time, as we find duplicate entries, typically caused when there's either a minor spelling issue in reports or when there's an update in a case and we miss the earlier entry. When we find those updated or duplicate entries they're checked as "deleted" in the database, but you can still see the original data, with the deleted notation, if you download the full data file - which you can do by clicking on the "Data" tab on the left. <BR>
 
 **And if you want to look just at current trends, here's a link to a visualization
 developed by Eric Graham, which opens in a new window** https://erksome.shinyapps.io/WMN_Analysis/
