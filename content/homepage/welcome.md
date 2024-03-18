@@ -14,15 +14,14 @@ The data collection started in mid-February 2023 and is limited to the United St
 You can help make the data more complete by looking in our
 [Data Section](#data) and submitting any changes or corrections you find.
 <BR>
-You can Scroll down for the data visualizations and analysis, but immediately below is the data summary from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}. 
+I encourage you to fact check the data. Use the "Data" tab on the left to download the full database. <BR>
+**You can Scroll down for the data visualizations and analysis, but immediately below is the data summary from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}.** 
 
 <div class="horizontal">
 {{< db_button id="relig-id" category="Religious Employment" >}}
 {{< db_button id="trans-id" category="Trans" label="Transgender" >}}
 {{< db_button id="drag-id" category="Drag Queen" >}}
 </div>
-<br> I encourage you to fact check the data. Use the "Data" tab on the left to download the full database. <BR>
-**For those who want a quick data summary (for full details scroll down)**
 
 **Note:** Unless you check the `Include Not Listed` checkbox below, 
 the charts will exclude
