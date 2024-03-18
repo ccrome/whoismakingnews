@@ -13,7 +13,6 @@ The Revised Plan: I've decided to keep collecting data through the first week in
 The data collection started in mid-February 2023 and is limited to the United States only. The rules for inclusion in the database are simple: the cases we're examing consist of crimes involving actual sexual assaults on children. Therefore the data excludes arrests in "sting" or CSAM possession cases, except where the perpetrator is charged with creating the CSAM, and thus has had direct contact with a victim.<BR><BR>
 You can help make the data more complete by looking in our
 [Data Section](#data) and submitting any changes or corrections you find.
-
 <BR>
 You can Scroll down for the data visualizations and analysis, but immediately below is the data summary from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}. 
 
