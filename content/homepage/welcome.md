@@ -7,9 +7,13 @@ This site was set up for two reasons: 1) because people wanted to see and check 
    {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}} and 2) because I believe that data matters - it's vital that all this data be verifiable and that any researcher or fact checker can have easy access. The site contains a set of data and statistical analysis of that data, nothing more. The data, like the facts, don't care about anyone's feelings, or politics. 
 
 #### 
-The Goal: fact checking right wing narratives about sex crimes against children. <BR>
+The Goal: fact checking narratives about sex crimes against children. <BR>
 The Plan: originally I'd expected to run the study for one calendar year. <BR>
-The Revised Plan: I've decided to go to the first week in which we show more than 10,000 cases, which should be a reasonable number on which to base some statistical and trend line observations. The data collection started in mid-February 2023 and is limited to the United States only. The rules are simple: the data consists of crimes involving actual assaults on children. Therefore it does not include arrests in "sting" or CSAM possession cases, except where the perpetrator is charged with creating the CSAM, and thus has direct contact with a victim.
+The Revised Plan: I've decided to go to the first week in which we show more than 10,000 cases, which should be a reasonable number on which to base some statistical and trend line observations. The data collection started in mid-February 2023 and is limited to the United States only. The rules are simple: the data consists of crimes involving actual assaults on children. Therefore it does not include arrests in "sting" or CSAM possession cases, except where the perpetrator is charged with creating the CSAM, and thus has direct contact with a victim.<BR><BR>
+You can help make the data more complete by looking in our
+[Data Section](#data) and submitting any changes or corrections you find.
+
+
 <BR>
 Scroll down for the data visualizations and analysis, but, right here is the data from the latest {{< db_case_count id="case-count" >}} cases, as of {{< db_latest_date id="latest-date" >}}. 
 
@@ -25,8 +29,6 @@ Scroll down for the data visualizations and analysis, but, right here is the dat
 the charts will exclude
 {{< db_case_count id="not-included" category="Not Listed" >}} cases
 that do not have any employment or relationship included in the news reports.  
-You can help make the data more complete by looking in our
-[Data Section](#data) and submitting any changes or corrections you find.
 
 <!-- add a checkbox to show the per-capita chart -->
 <div class="horizontal">
