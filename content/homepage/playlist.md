@@ -1,5 +1,5 @@
 ---
-title: "TikTok"
+title: "TikTok Playlist"
 weight: 35
 header_menu: true
 ---
