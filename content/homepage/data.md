@@ -7,7 +7,7 @@ Your can download the full database that goes into our TikToks and the analysis 
 
 If you have a case we missed, or found any errors, please use the contact form at the bottom of this page
 
-{{< extlink-button href="https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit#gid=1882457294" text="Data Source" >}} {{< extlink-button href="https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit#gid=1882457294&single=true&output=csv" text="As CSV" >}}
+{{< extlink-button href="https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit#gid=1882457294" text="Full Database" >}} {{< extlink-button href="https://docs.google.com/spreadsheets/d/1t6I-j30Nf7pTwl2i1snMbFWcTbWkYMtnk192JL1Og9k/edit#gid=1882457294&single=true&output=csv" text="As CSV" >}}
 
 WHAT'S IN THE DATA AND WHAT IS NOT! <BR>
 
