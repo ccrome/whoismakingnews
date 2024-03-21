@@ -11,7 +11,7 @@ The Goal: fact checking narratives about sex crimes against children and those l
 The Original Plan: originally I'd expected to run the study for one calendar year. <BR><BR>
 The Revised Plan: I've decided to keep collecting data through the first week in which we have tabulated more than 10,000 cases, which should be a reasonable number on which to base some statistical and trend line observations. <BR><BR>
 
-**Scroll down for the data visualizations and analysis, but immediately below is the data summary from the latest {{< db_case_count id="case-count" >}} cases. The most recent case in the database is dated {{< db_latest_date id="latest-date" >}}.** 
+**Scroll down for the data visualizations and analysis, but this is the data summary from the latest {{< db_case_count id="case-count" >}} cases. The most recent case in the database is dated {{< db_latest_date id="latest-date" >}}.** 
 
 <div class="horizontal">
 {{< db_button id="relig-id" category="Religious Employment" >}}
