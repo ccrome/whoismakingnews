@@ -3,7 +3,7 @@ title: "Source Data"
 weight: 25
 header_menu: true
 ---
-Your can download the full database that goes into our TikToks and the analysis from this page. It's available as an excel sheet or a .csv file, so you can slice and dice it yourself and do your own analysis. We also have some presorted analysis options in the visualizations area, under the "Raw Data and Notes" tab.
+Your can download the full database that goes into our TikToks and the analysis we've done from this page. It's available as an excel sheet or a .csv file, so you can slice and dice it yourself and do your own analysis. We also have some presorted analysis options in the visualizations area, under the "Raw Data and Notes" tab.
 
 If you have a case we missed, or found any errors, please use the contact form at the bottom of this page
 
