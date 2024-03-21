@@ -3,9 +3,7 @@ title: "Data"
 weight: 25
 header_menu: true
 ---
-Download the data here
-
-The data I use is available for you to sort and slice however you like - Download it as an excel sheet or a .csv file. We also have some presorted options for you down in the visualizations area, under the "Raw Data and Notes" tab.
+Your can download the full database that goes into our TikToks and the analysis from this page. It's available as an excel sheet or a .csv file, so you can slice and dice it yourself and do your own analysis. We also have some presorted analysis options in the visualizations area, under the "Raw Data and Notes" tab.
 
 If you have a case we missed, or found any errors, please use the contact form at the bottom of this page
 
