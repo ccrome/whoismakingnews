@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "About Kristen"
 weight: 100
 header_menu: true
 ---
