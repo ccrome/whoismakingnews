@@ -11,13 +11,15 @@ The Goal: fact checking narratives about sex crimes against children and those l
 The Original Plan: originally I'd expected to run the study for one calendar year. <BR><BR>
 The Revised Plan: I've decided to keep collecting data through the first week in which we have tabulated more than 10,000 cases, which should be a reasonable number on which to base some statistical and trend line observations. <BR><BR>
 
-**Scroll down for the data visualizations and analysis, but this is the data summary from the latest {{< db_case_count id="case-count" >}} cases. The most recent case in the database is dated {{< db_latest_date id="latest-date" >}}.** 
+**Here is the data summary from the latest {{< db_case_count id="case-count" >}} cases. The most recent case in the database is dated {{< db_latest_date id="latest-date" >}}.** 
 
 <div class="horizontal">
 {{< db_button id="relig-id" category="Religious Employment" >}}
 {{< db_button id="trans-id" category="Trans" label="Transgender" >}}
 {{< db_button id="drag-id" category="Drag Queen" >}}
 </div>
+
+Scroll down for the full data visualizations and analysis. 
 
 The data collection started in mid-February 2023 and is limited to the United States only. The rules for inclusion in the database are simple: the cases we're examining are limited to crimes involving actual sexual assaults on children. Therefore the data excludes arrests in "sting" or CSAM possession cases, except where the perpetrator is charged with creating the CSAM, and thus has had direct contact with a victim.<BR><BR>
 You can help make the data more complete by downloading the Source Data (tab on the upper left) and by submitting any additions, changes or corrections you find.<BR>
