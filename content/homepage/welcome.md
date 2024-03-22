@@ -21,7 +21,7 @@ The Plan: Instead of running one calendar year, I've decided to keep collecting 
 Scroll down for the full data visualizations and analysis. 
 
 I encourage you to fact check the data. Use the "Data" tab on the left to download the full database. The data collection started in mid-February 2023 and is limited to the United States only. The rules for inclusion in the database are simple: the cases we're examining are limited to crimes involving actual sexual assaults on children. Therefore the data excludes arrests in "sting" or CSAM possession cases, except where the perpetrator is charged with creating the CSAM, and thus has had direct contact with a victim.<BR>
-You can help make the data more complete by downloading the Source Data (tab on the upper left) and by submitting any additions, changes or corrections you find. <BR>
+You can help make the data more complete by downloading the Source Data (tab on the upper left) and by submitting any additions, changes or corrections you find. The e-mail dedicated to this project is whoismakingnews@browdelaw.com.<BR> <BR>
 
 **Note:** Unless you check the `Include Not Listed` checkbox below, 
 the charts will exclude
