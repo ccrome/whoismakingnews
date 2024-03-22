@@ -3,8 +3,8 @@ title: "Welcome"
 weight: 10
 header_menu: true
 ---
-This site was set up for two reasons: 1) because people have asked to see and verify the data that goes into my TikTok series,
-   {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}} and 2) because I believe that data is what really matters. And it's vital both that all the data be verifiable and that any researcher or fact checker have full access. Scroll down for the latest numbers and free access to the full database.
+This site was set up to allow public access and verification of the data that goes into my TikTok series,
+   {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}.   Scroll down for the latest numbers and free access to the full database.
 
 #### 
 The Goal: fact checking narratives about sex crimes against children and those labeled as "groomers." The site contains a set of data and statistical analysis of that data, nothing more. The data, like the facts, don't care about anyone's feelings, or politics.  <BR><BR>
