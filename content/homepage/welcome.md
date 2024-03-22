@@ -7,7 +7,7 @@ This site was set up to allow public access and verification of the data that go
    {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}.   Scroll down for the latest numbers and free access to the full database.
 
 #### 
-The Series Goal: fact checking narratives about sex crimes against children and those labeled as "groomers." The site contains a set of data and statistical analysis of that data, nothing more. The data, like the facts, don't care about anyone's feelings, or politics.  <BR><BR>
+The Series Goal: fact checking narratives about sex crimes against children." The site contains a set of data and statistical analysis of that data, nothing more. The data, like the facts, don't care about anyone's feelings, or politics.  <BR><BR>
 The Original Plan: originally I'd expected to run the series and the study for one calendar year. <BR><BR>
 The Revised Plan: I've decided to keep collecting data through the first week in which we have tabulated more than 10,000 cases, which should be a reasonable number on which to base some statistical and trend line observations. <BR><BR>
 
