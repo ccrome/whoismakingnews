@@ -9,10 +9,10 @@ Find me on
 {{<extlink href="https://www.youtube.com/@NewGirlNY_FL" text="YouTube" >}},
 or
 {{<extlink href="https://www.tiktok.com/@newgirlny_fl" text="TikTok" >}}.
-<BR>
+<BR><BR>
 FREQUENTLY ASKED QUESTIONS<BR><BR>
 Question: Where does the data come from? <BR>
-We start with keyword searches in search engines including Google and DuckDuckGo. We cross check against major sites that aggregate reports of these crimes, including the Joe My God blog, the subReddit #notadragqueen and Floodlit.org, which tracks Mormon cases. We add suggestions that come in from you, via e-mail at whoismakingnews@browdelaw.com.<BR>
+We start with keyword searches in search engines including Google and DuckDuckGo. We cross check against major sites that aggregate reports of these crimes, including the Joe My God blog, the subReddit #notadragqueen and Floodlit.org, which tracks Mormon cases. We add suggestions that come in from you. The e-mail dedicated to this project is whoismakingnews@browdelaw.com.<BR>
 Question: What fact checking do you do? <BR>
 We do not include any name that is not attributable directly to a news report or reliable press release or court document. Although we did not include the links to the stories in the first weeks that we began tracking the cases, since those early weeks each name has a hyperlink to the source data included. <BR>
 Question: Why are there so many occupations described as "not listed"?<BR>
