@@ -6,9 +6,6 @@ header_menu: true
 This site was set up to allow public access and verification of the data that goes into my TikTok series,
    {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}.   Scroll down for the latest numbers and free access to the full database. NOTE: As of April 13, 2024 though the data is still being collected, the website is temporarily not being updated on a daily basis, while I deal with three back to back trials. We expect to resume daily updates in mid May. 
 #### 
-The Series Goal: fact checking narratives about sex crimes against children." The site contains a set of data and statistical analysis of that data, nothing more. The data, like the facts, don't care about anyone's feelings, or politics.  <BR>
-
-The Plan: Instead of running one calendar year, I've decided to keep collecting data through the first week in which we have tabulated more than 10,000 cases, enough on which to base statistical and trend line observations. <BR>
 
 **Here is the data summary from the latest {{< db_case_count id="case-count" >}} cases. The most recent case in the database is dated {{< db_latest_date id="latest-date" >}}.** 
 
@@ -19,6 +16,10 @@ The Plan: Instead of running one calendar year, I've decided to keep collecting 
 </div>
 
 Scroll down for the full data visualizations and analysis. 
+
+The Series Goal: fact checking narratives about sex crimes against children." The site contains a set of data and statistical analysis of that data, nothing more. The data, like the facts, don't care about anyone's feelings, or politics.  <BR>
+
+The Plan: Instead of running one calendar year, I've decided to keep collecting data through the first week in which we have tabulated more than 10,000 cases, enough on which to base statistical and trend line observations. <BR>
 
 I encourage you to fact check the data. Use the "Data" tab on the left to download the full database. The data collection started in mid-February 2023 and is limited to the United States only. The rules for inclusion in the database are simple: the cases we're examining are limited to crimes involving actual sexual assaults on children. Therefore the data excludes arrests in "sting" or CSAM possession cases, except where the perpetrator is charged with creating the CSAM, and thus has had direct contact with a victim.<BR>
 You can help make the data more complete by downloading the Source Data (tab on the upper left) and by submitting any additions, changes or corrections you find. The e-mail dedicated to this project is whoismakingnews@browdelaw.com.<BR> <BR>
