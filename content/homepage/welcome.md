@@ -7,7 +7,7 @@ This site was set up to allow public access and verification of the data that go
    {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}.   Scroll down for the latest numbers and free access to the full database. NOTE: As of April 13, 2024 though the data is still being collected, the website is temporarily not being updated on a daily basis, while I deal with three back to back trials. We expect to resume daily updates in mid May. 
 #### 
 
-**Here is the data summary from the latest {{< db_case_count id="case-count" >}} cases. The most recent case in the database is dated {{< db_latest_date id="latest-date" >}}.** 
+**Here is the data summary from the latest {{< db_case_count id="case-count" >}} cases. The most recent case in the database is dated {{< db_latest_date id="latest-date" >}}.** This does not mean that all cases prior to that date are processed - we're currently approximately one week behind in reviewing reports - but they don't arrive in chronological order.
 
 <div class="horizontal">
 {{< db_button id="relig-id" category="Religious Employment" >}}
