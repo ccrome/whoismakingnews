@@ -4,7 +4,7 @@ weight: 10
 header_menu: true
 ---
 This site was set up to allow public access and verification of the data that goes into my TikTok series,
-   {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}.   Scroll down for the latest numbers and free access to the full database. NOTE: the website is not being updated on a daily basis while I deal with three back to back trials. We expect to resume daily updates in mid May. 
+   {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}.   Scroll down for the latest numbers and free access to the full database.   
 #### 
 
 **Here is the data summary from the latest {{< db_case_count id="case-count" >}} cases. The most recent case in the database is dated {{< db_latest_date id="latest-date" >}}.** This does not mean that all cases prior to that date are processed - we're currently still processing some reports from late April. However, note: the reports aren't reported in chronological order - which is why we have some cases that are dated more recently.
