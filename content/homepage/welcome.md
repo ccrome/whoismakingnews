@@ -19,9 +19,10 @@ Scroll down for the current visualizations and analysis.
 
 The Series Goal: fact checking narratives about sex crimes against children." The site contains a set of data and statistical analysis of that data, nothing more. The data, like the facts, don't care about anyone's feelings, or politics.  <BR>
 
-The Plan: We'll collect and aggregate data until the first week in which we have tabulated more than 10,000 cases, enough on which to base statistical and trend line observations. At that point we'll work on a major data cleanup review and make sure we have at least 10,000 valid and verified cases. Then we'll work on detailed analysis, leading to a report.<BR>
+The Data: I have collected and aggregate data starting in Mid February 2023 and running through May 16, 2024, the date on which the number of individuals in our database exceeded 10,000 cases, enough on which to base statistical and trend line observations. At this point I'll work primarily on a major data cleanup review and make sure we have at least 10,000 valid and verified cases. Then we'll work on detailed analysis, leading to a report.<BR>
 
 I encourage you to fact check the data. Use the "Data" tab on the left to download the full database. The data collection started in mid-February 2023 and is limited to the United States only. The rules for inclusion in the database are simple: the cases we're examining are limited to crimes involving actual sexual assaults on children. Therefore the data excludes arrests in "sting" or CSAM possession cases, except where the perpetrator is charged with creating the CSAM, and thus has had direct contact with a victim.<BR>
+
 You can help make the data more complete by downloading the Source Data (tab on the upper left) and by submitting any additions, changes or corrections you find. The e-mail dedicated to this project is whoismakingnews@browdelaw.com.<BR> <BR>
 
 **Note:** Unless you check the `Include Not Listed` checkbox below, 
