@@ -4,7 +4,7 @@ weight: 10
 header_menu: true
 ---
 This site was set up to allow public access and verification of the data that goes into my TikTok series,
-   {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}. This research project started in mid February, 2023 and is designed to run through mid May 2024 - a total of 15 months. In it, I aggregate and analyze news reports published in the United States about sexual assaults on children. You can check the data by downloading the full database - just click the "Source Data" tab.   
+   {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}. This research project started in mid February, 2023 and runs through mid May 2024 - a total of 15 months. In it, I aggregate and analyze news reports published in the United States about sexual assaults on children. You can check the data by downloading the full database - just click the "Source Data" tab.   
 #### 
 
 **Here is the data summary from the latest {{< db_case_count id="case-count" >}} cases. The most recent case in the database is dated {{< db_latest_date id="latest-date" >}}.** This does not mean that all cases prior to that date are processed; reports don't come in in chronological order. I'm currently going back and filling in cases that were not picked up in earlier searches.
