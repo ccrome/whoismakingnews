@@ -7,7 +7,7 @@ This site was set up to allow public access and verification of the data that go
    {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}. This research project started in mid February, 2023 and runs through May 23, 2024. The project aggregates and analyzes news reports published about sexual assaults on children in the United States, and is designed to be fully verifiable. You can check the data by downloading the full database - just click the "Source Data" tab.   
 #### 
 
-**Here is the data summary from the {{< db_case_count id="case-count" >}} cases in the database. The end date in the database is dated {{< db_latest_date id="latest-date" >}}.** However, that final date does not mean that all cases prior to May 23, 2024 are processed; reports don't come in in chronological order. I'm currently going back and filling in cases that were not picked up in earlier searches - and it is anticipated that this will add hundreds of additional entries, and possibly more, as we add new data sources to the aggregation.
+**Here is the data summary from the {{< db_case_count id="case-count" >}} cases in the database. The end date in the database is dated {{< db_latest_date id="latest-date" >}}.** Note: not all cases prior to May 23, 2024 have been processed; reports don't come in in chronological order. I'm currently going back and filling in cases that were not picked up in earlier searches, something that has already added hundreds of additional entries. Many more are expected as we also add new data sources to the aggregation.
 
 <div class="horizontal">
 {{< db_button id="relig-id" category="Religious Employment" >}}
