@@ -1,9 +1,9 @@
 ---
-title: "Ten Thousand Predators"
+title: "WHO ARE THE REAL PREDATORS?"
 weight: 10
 header_menu: true
 ---
-This site was set up to allow public access and verification of the data that goes into my TikTok series,
+This site was set up to allow public access to and easy verification of the data that goes into my TikTok series,
    {{% extlink text="Who's Making News for Sex Crimes Involving Children." href="https://www.tiktok.com/@newgirlny_fl" %}} This research project aggregates and analyzes news reports published about sexual assaults on children in the United States, and is designed to be fully verifiable. You can check the data by downloading the full database - just click the "Source Data" tab.   
 #### 
 
