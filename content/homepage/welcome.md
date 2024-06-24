@@ -4,7 +4,7 @@ weight: 10
 header_menu: true
 ---
 This site was set up to allow public access and verification of the data that goes into my TikTok series,
-   {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}. This research project started on a somewhat random date, February 10, 2023 and looks at cases through a not quite as random date, May 23, 2024 - explanation below. The project aggregates and analyzes news reports published about sexual assaults on children in the United States, and is designed to be fully verifiable. You can check the data by downloading the full database - just click the "Source Data" tab.   
+   {{% extlink text="Who's Making News for Sex Crimes Involving Children" href="https://www.tiktok.com/@newgirlny_fl" %}}. This research project aggregates and analyzes news reports published about sexual assaults on children in the United States, and is designed to be fully verifiable. You can check the data by downloading the full database - just click the "Source Data" tab.   
 #### 
 
 **Here is the data summary from the {{< db_case_count id="case-count" >}} cases in the database. The end date in the database is dated {{< db_latest_date id="latest-date" >}}.** 
@@ -17,7 +17,7 @@ This site was set up to allow public access and verification of the data that go
 
 Scroll down for the current visualizations and analysis. 
 
-What's in the Database: I collected and aggregated data, starting February 10, 2023 and running through one week after May 16, 2024, the date on which the number of individuals in the database exceeded 10,000 cases. I'm now working primarily on data cleanup review, after which I'll work on detailed analysis leading to a report. Important note for those looking at the current database: not all cases prior to the official closing date, May 23, 2024, have been processed; the reports don't arrive in chronological order. I'm currently going back and filling in cases that were not picked up in earlier searches, something that has already added hundreds of additional entries. Many more are expected as we also add new data sources to the aggregation.<BR>
+What's in the Database: I collected and aggregated data, starting on a somewhat random date February 10, 2023 and running through one week after May 16, 2024, the date on which the number of individuals in the database exceeded 10,000 cases. I'm now working primarily on data cleanup review, after which I'll work on detailed analysis leading to a report. Important note for those looking at the current database: not all cases prior to the official closing date, May 23, 2024, have been processed; the reports don't arrive in chronological order. I'm currently going back and filling in cases that were not picked up in earlier searches, something that has already added hundreds of additional entries. Many more are expected as we also add new data sources to the aggregation.<BR>
 
 The Series Goal: fact checking narratives about sex crimes against children." The site contains a set of data and statistical analysis of that data, nothing more. The data, like the facts, don't care about anyone's feelings, or politics.  <BR> 
 
