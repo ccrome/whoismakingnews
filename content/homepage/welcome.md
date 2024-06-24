@@ -7,7 +7,7 @@ This site was set up to allow public access and verification of the data that go
    {{% extlink text="Who's Making News for Sex Crimes Involving Children." href="https://www.tiktok.com/@newgirlny_fl" %}} This research project aggregates and analyzes news reports published about sexual assaults on children in the United States, and is designed to be fully verifiable. You can check the data by downloading the full database - just click the "Source Data" tab.   
 #### 
 
-**Here is the data summary from the {{< db_case_count id="case-count" >}} cases in the database. The end date in the database is dated {{< db_latest_date id="latest-date" >}}.** 
+**Here is the data summary from the {{< db_case_count id="case-count" >}} cases in the database. The cases in the database run from February 10, 2023 through {{< db_latest_date id="latest-date" >}}.** 
 
 <div class="horizontal">
 {{< db_button id="relig-id" category="Religious Employment" >}}
