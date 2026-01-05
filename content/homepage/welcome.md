@@ -4,10 +4,12 @@ weight: 10
 header_menu: true
 ---
 This site was set up to allow public access to and easy verification of the data that goes into my TikTok series,
-   {{% extlink text="Who's Making News for Sex Crimes Involving Children." href="https://www.tiktok.com/@newgirlny_fl" %}} This research project aggregates and analyzes news reports published about sexual assaults on children in the United States, and is designed to be fully verifiable. You can check the data by downloading the full database - just click the "Source Data" tab.   
+   {{% extlink text="Who's Making News for Sex Crimes Involving Children." href="https://www.tiktok.com/@newgirlny_fl" %}} This research project aggregates and analyzes news reports published about sexual assaults on children in the United States, and is designed to be fully verifiable. You can check the data by downloading the full database - just click the "Source Data" tab.   The initial database ran from February 10, 2023 to May 23, 2024 - but we're now in the process of building Who Is Making News 2.0 - to build a more sustainable and continuing database.
+
+   I'm not sure exactly when we'll be up and running with 2.0 - but the plan is for that data collection to commence as of January 1, 2026 and run forward - we'll keep the initial data available, but augment it, hopefully updating daily. So watch this space - but in the meantime, here's the original dataset.
 #### 
 
-**Here is the data summary from the {{< db_case_count id="case-count" >}} cases in the database. The cases in the database run from February 10, 2023 through {{< db_latest_date id="latest-date" >}}.** 
+**Here is the data summary from the {{< db_case_count id="case-count" >}} cases in the database. The cases in the initial database run from February 10, 2023 through {{< db_latest_date id="latest-date" >}}.** 
 
 <div class="horizontal">
 {{< db_button id="relig-id" category="Religious Employment" >}}
